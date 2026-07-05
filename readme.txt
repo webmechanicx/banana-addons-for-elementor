@@ -20,7 +20,7 @@ Banana Addons for Elementor extends the Elementor page builder adds **35+** widg
 
 
 ## Useful Links
-[Demo](https://bananaaddons.com/all-elementor-widgets/) | [Docs](https://bananaaddons.com/docs/) | [Videos](https://www.youtube.com/@bananaaddons) | [Support](https://bananaaddons.com/banana-support/) | [IdeaSharing](https://bananaaddons.com/roadmaps/#ideas) | [FacebookGroup](https://www.facebook.com/groups/BananaAddonsCommunity) | [Get Pro](https://bananaaddons.com/pricing/)
+[Demo](https://bananaaddons.com/all-elementor-widgets/) | [Docs](https://bananaaddons.com/docs/) | [Videos](https://www.youtube.com/@bananaaddons) | [Github](https://github.com/webmechanicx/banana-addons-for-elementor) | [Support](https://bananaaddons.com/banana-support/) | [IdeaSharing](https://bananaaddons.com/roadmaps/#ideas) | [FacebookGroup](https://www.facebook.com/groups/BananaAddonsCommunity) | [Get Pro](https://bananaaddons.com/pricing/)
 
 
 ## Video Tutorial
