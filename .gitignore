@@ -3,3 +3,4 @@ docs
 src/assets/icofont
 pro_widgets
 *.zip
+*.DS_Store
