@@ -1,6 +1,7 @@
 node_modules
 docs
 src/assets/icofont
+src/assets/vendor/__prismjs
 pro_widgets
 *.zip
 *.DS_Store
