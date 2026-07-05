@@ -1,0 +1,56 @@
+.banae-logo-carousel-wrapper {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0;
+    position: relative;
+}
+
+.banae-logo-carousel-wrapper img {
+    width: 100%;
+    max-height: 80px;
+    object-fit: contain;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.banae-logo-carousel-wrapper .banae-slide-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.banae-logo-carousel-wrapper img:hover {
+    opacity: 1;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #333;
+    transition: color 0.3s;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    color: #000;
+}
+
+.swiper-pagination-bullet {
+    background: #666;
+    opacity: 0.6;
+}
+
+.swiper-pagination-bullet-active {
+    background: #000;
+    opacity: 1;
+}
+
+.banae-logo-carousel-wrapper .swiper-button-next::after,
+.banae-logo-carousel-wrapper .swiper-button-prev::after {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.banae-logo-carousel-swiper .swiper-slide {
+    transition: all 0.3s ease-in-out;
+}

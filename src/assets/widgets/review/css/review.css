@@ -1,0 +1,94 @@
+.banae-review-widget__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.banae-review-widget__wrapper.banae-align-left .banae-review__content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.banae-review-widget__wrapper.banae-align-left .banae-review__content {
+    flex-direction: row;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.banae-review-widget__wrapper.banae-align-top .banae-review__content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.banae-review-widget__wrapper img {
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.banae-review__text {
+    flex: 1;
+}
+
+.banae-review-widget__wrapper .banae-review-comment {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.banae-review-widget__wrapper.banae-align-top .banae-review__meta, 
+.banae-review-widget__wrapper.banae-align-top .banae-review-comment {
+    margin-top: 30px;
+}
+
+.banae-review__stars {
+    margin-top: 8px;
+}
+
+.banae-review__stars i {
+    margin: 0 2px;
+    font-size: 18px;
+}
+
+.banae-review-name {
+    margin: 5px 0 2px;
+    font-weight: 600;
+}
+
+.banae-review-designation {
+    color: #888;
+    font-size: 14px;
+}
+
+.banae-review__stars .banae-star-icon {
+    color: #FFD700;
+    margin: 0 2px;
+    font-size: 18px;
+}
+
+.banae-review__num-star {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.banae-review__num-star .banae-star-icon {
+    color: #0DD60D;
+    margin-left: 4px;
+}
+
+.banae-review__num-star,
+.banae-review__num-star .banae-star-icon {
+    font-size: 12px;
+    line-height: 1;
+}
+
+.banae-review__num-star {
+    background-color: #343A28;
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 20px;
+}

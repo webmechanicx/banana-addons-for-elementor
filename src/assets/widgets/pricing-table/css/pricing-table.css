@@ -1,0 +1,145 @@
+.banae-pricing-table {
+    position: relative;
+    overflow: hidden;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px 0px #ddd;
+    transition: 0.3s;
+}
+
+.banae-pricing-table-heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.banae-pricing-table.banae-pt-highlight {
+    background: #f7faff;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #27C421;
+}
+
+.banae-pricing-media {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.banae-pricing-media img {
+    display: inline-block;
+}
+
+.banae-pricing-media i {
+    font-size: 40px;
+    color: var(--e-global-color-primary, #333);
+}
+
+.banae-pricing-media img, 
+.banae-pricing-media svg {
+    max-width: 80px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.banae-pt-ribbon {
+    position: absolute;
+    top: -3px;
+    padding: 6px 14px;
+    color: #fff;
+    font-weight: bold;
+    background: #27c421;
+}
+
+.banae-pt-ribbon.pt-top-right {
+    right: 0px;
+}
+
+.banae-pt-ribbon.pt-top-left {
+    left: 0px;
+}
+
+.banae-pt-ribbon.pt-top-center {
+    left: 50%;
+    transform: translate(-50%, 0%);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.banae-pricing-heading {
+    font-size: 1.75em;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.banae-pricing-subheading {
+    color: #666;
+    margin-bottom: 0px;
+}
+
+.banae-pricing__wrapper {
+    margin: 16px 0;
+}
+
+.banae-pricing__inner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.banae-pricing__inner .banae-currency {
+    font-size: 1.75rem;
+}
+
+.banae-pricing__inner .banae-duration {
+    color: #aaaaaa;
+}
+
+.banae-pricing-price .currency-top {
+    order: -1;
+    font-size: 0.5em;
+    opacity: 0.8;
+}
+
+.banae-pricing-price .currency-bottom {
+    order: 1;
+    font-size: 0.5em;
+    opacity: 0.8;
+}
+
+.banae-pricing-features {
+    list-style: none;
+    padding: 0;
+    margin: 40px 0;
+}
+
+.banae-pricing-features li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.banae-pricing-button {
+    background-color: #27C421;
+    display: inline-block;
+    margin-top: 16px;
+    padding: 14px 40px;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.banae-pricing-button:hover,
+.banae-pricing-button:focus {
+    background-color: #21b01d;
+    color: #fff;
+}
+
+.banae-pricing-footer {
+    margin-top: 16px;
+    color: #999;
+    font-size: 0.9em;
+}
+

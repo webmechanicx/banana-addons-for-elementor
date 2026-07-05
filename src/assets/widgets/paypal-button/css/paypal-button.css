@@ -1,0 +1,32 @@
+.banae-paypal-btn {
+    background-color: #ffc439;
+    display: inline-block;
+    /* PayPal yellow */
+    font-weight: bold;
+    color: #000;
+    padding: 0.65em 2em;
+    border-radius: 6px;
+    text-decoration: none;
+    border: none;
+}
+
+.banae-paypal-btn:hover,
+.banae-paypal-btn:focus {
+    background-color: #e1ad34;
+    color: #000;
+}
+
+.banae-paypal-btn .banae-paypal-button__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banae-paypal-btn .banae-paypal-button__inner svg,
+.banae-paypal-btn .banae-paypal-button__inner img {
+    width: 16px;
+}
+
+.banae-paypal-btn .banae-paypal-button__inner .banae-btn-label {
+    padding-left: 10px;
+}

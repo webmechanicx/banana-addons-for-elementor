@@ -1,0 +1,89 @@
+.banae-progress-bar-wrapper {
+  display: grid;
+  gap: 10px;
+}
+
+.banae-progress-bar-item {
+  padding: 0px;
+}
+
+.banae-progress-bar-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.banae-progress-bar {
+  position: relative;
+  background: #eee;
+  border-radius: 10px;
+  height: 12px;
+}
+
+.banae-bar-inner {
+  height: 100%;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  transition: width 0.6s ease;
+}
+
+.striped .banae-bar-inner {
+  background: repeating-linear-gradient(45deg, #6a11cb, #6a11cb 10px, #2575fc 10px, #2575fc 20px);
+}
+
+.banae-bar-style-1 .banae-percent {
+  position: absolute;
+  right: 10px;
+  top: -22px;
+  font-size: 12px;
+  color: #555;
+}
+
+.banae-bar-style-2 .banae-bar-inner {
+  position: relative;
+}
+
+.banae-bar-style-2 .banae-percent {
+  background-color: #000;
+  font-size: 12px;
+  color: #fff;
+  padding: 2px 4px;
+  border-radius: 4px; 
+  position: absolute;
+  top: -33px;
+  right: -15px;
+}
+
+.banae-bar-style-2 .banae-percent:before {
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 0;
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  border-color: rgba(194, 225, 245, 0);
+  border-top-color: rgba(194, 225, 245, 0);
+  border-top-color: #000000;
+  border-width: 4px;
+  margin-left: -4px;
+  pointer-events: none;
+}
+
+.banae-bar-style-3 .banae-percent {
+  font-size: 12px;
+  color: #555;
+}
+
+.banae-bar-style-3 .banae-bar-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.banae-bar-style-3.banae-progress-bar {
+  height: 40px;
+}
+
+.banae-bar-style-3.banae-progress-bar .banae-progress-bar-title {
+  margin: 0;
+}

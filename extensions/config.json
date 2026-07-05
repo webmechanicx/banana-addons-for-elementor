@@ -1,0 +1,39 @@
+[
+    {
+        "wrapper-link":{
+            "title": "Wrapper Link",
+            "description": "Adds a link to an entire container.",
+            "tags": "free",
+            "screenshot": "",
+            "background": "#a6d07a",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/wrapper-link\/",
+            "demo_link": "#",
+            "dependency": []
+        },
+        "equal-height":{
+            "title": "Equal Height",
+            "description": "Make columns in a section have equal height.",
+            "tags": "free",
+            "screenshot": "",
+            "background": "#a6d07a",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/equal-height\/",
+            "demo_link": "#",
+            "dependency": {
+                "style": [],
+                "script": {
+                    "banae-vendor-equal-height" : "vendor/jquery-matchHeight/js/jquery.matchHeight-min.js"
+                }
+            }
+        },
+        "banana-clone":{
+            "title": "Banana Clone",
+            "description": "Duplicate a Page or Post with Clone Extension.",
+            "tags": "free",
+            "screenshot": "",
+            "background": "#a6d07a",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/banana-clone\/",
+            "demo_link": "#",
+            "dependency": []
+        }
+    }
+]

@@ -1,0 +1,3901 @@
+# Copyright (C) 2026 Farhadur Rahim
+# This file is distributed under the GPLv2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Banana Addons for Elementor 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/banana-addons-for-elementor\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-06-28T18:07:16+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: banana-addons-for-elementor\n"
+
+#. Plugin Name of the plugin
+#: banana-addons-for-elementor.php
+msgid "Banana Addons for Elementor"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: banana-addons-for-elementor.php
+msgid "https://bananaaddons.com/"
+msgstr ""
+
+#. Description of the plugin
+#: banana-addons-for-elementor.php
+msgid "<a href=\"https://bananaaddons.com/\">Banana Addons for Elementor</a> provides 35+ free widgets for the <a href=\"https://wordpress.org/plugins/elementor/\">Elementor</a> page builder, including Info Card, Flip Box, Advanced Heading, Testimonial, and more. It also includes additional features such as Wrapper Link to extend Elementor's default functionality."
+msgstr ""
+
+#. Author of the plugin
+#: banana-addons-for-elementor.php
+msgid "Farhadur Rahim"
+msgstr ""
+
+#. Author URI of the plugin
+#: banana-addons-for-elementor.php
+msgid "https://farhadurrahim.com/"
+msgstr ""
+
+#: admin/admin-settings.php:41
+#: admin/admin-settings.php:42
+#: banana-addons-for-elementor.php:97
+#: banana-addons-for-elementor.php:125
+#: base.php:117
+msgid "Banana Addons"
+msgstr ""
+
+#: admin/admin-settings.php:63
+#: admin/admin-settings.php:64
+msgid "Widgets"
+msgstr ""
+
+#: admin/admin-settings.php:72
+#: admin/admin-settings.php:73
+msgid "Extensions"
+msgstr ""
+
+#: admin/admin-settings.php:81
+#: admin/admin-settings.php:82
+msgid "API Keys"
+msgstr ""
+
+#: admin/admin-settings.php:90
+#: admin/admin-settings.php:91
+msgid "Theme Builder"
+msgstr ""
+
+#. translators: %s: Plugin name.
+#: admin/admin-settings.php:232
+#, php-format
+msgid "Go Pro - %s"
+msgstr ""
+
+#: admin/admin-settings.php:330
+msgid "Docs"
+msgstr ""
+
+#: admin/admin-settings.php:337
+msgid "Support"
+msgstr ""
+
+#: admin/partials/setting-api.php:6
+#: admin/partials/setting-api.php:10
+msgid "Google Map API Key"
+msgstr ""
+
+#: admin/partials/setting-api.php:18
+#: admin/partials/setting-api.php:22
+msgid "MailChimp API Key"
+msgstr ""
+
+#: admin/partials/setting-api.php:32
+#: admin/partials/setting-api.php:36
+msgid "Stripe Public Key"
+msgstr ""
+
+#: admin/partials/setting-api.php:43
+#: admin/partials/setting-api.php:47
+msgid "Stripe Secret Key"
+msgstr ""
+
+#: admin/partials/setting-widgets.php:52
+msgid "Available only in Pro Version!"
+msgstr ""
+
+#. translators: 1: Plugin name 2: PHP 3: Required PHP version
+#: banana-addons-for-elementor.php:96
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: banana-addons-for-elementor.php:98
+msgid "PHP"
+msgstr ""
+
+#: banana-addons-for-elementor.php:113
+msgid "Activate Elementor"
+msgstr ""
+
+#: banana-addons-for-elementor.php:116
+msgid "Install Elementor"
+msgstr ""
+
+#. translators: 1: Plugin name, 2: Elementor plugin name, 3: Elementor installation link
+#: banana-addons-for-elementor.php:121
+#, php-format
+msgid "%1$s requires %2$s to be installed and activated to function properly. %3$s"
+msgstr ""
+
+#: banana-addons-for-elementor.php:126
+#: banana-addons-for-elementor.php:150
+msgid "Elementor"
+msgstr ""
+
+#: banana-addons-for-elementor.php:143
+msgid "Update Elementor"
+msgstr ""
+
+#. translators: 1: Plugin name 2: Elementor 3: Required Elementor version
+#: banana-addons-for-elementor.php:148
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %4$s or greater. %3$s"
+msgstr ""
+
+#: banana-addons-for-elementor.php:149
+msgid "Banana Addons Elementor"
+msgstr ""
+
+#: extensions/banana-clone.php:63
+msgid "Banana Clone"
+msgstr ""
+
+#: extensions/banana-clone.php:149
+msgid "No post to clone."
+msgstr ""
+
+#: extensions/banana-clone.php:158
+msgid "Security check failed"
+msgstr ""
+
+#: extensions/banana-clone.php:165
+msgid "Post not found"
+msgstr ""
+
+#: extensions/banana-clone.php:175
+#: extensions/banana-clone.php:180
+msgid "Sorry, you are not allowed to clone this item."
+msgstr ""
+
+#: extensions/equal-height.php:69
+msgid "Equal Height"
+msgstr ""
+
+#: extensions/equal-height.php:77
+msgid "Enable Equal Height"
+msgstr ""
+
+#: extensions/equal-height.php:79
+#: widgets/avatar-group/register-controls.php:38
+#: widgets/facebook-feed/register-controls.php:147
+#: widgets/facebook-feed/register-controls.php:159
+#: widgets/flex-card/register-controls.php:103
+#: widgets/image-compare/widget-image-compare.php:149
+#: widgets/image-compare/widget-image-compare.php:176
+#: widgets/image-compare/widget-image-compare.php:188
+#: widgets/image-compare/widget-image-compare.php:200
+#: widgets/logo-carousel/widget-logo-carousel.php:153
+#: widgets/logo-carousel/widget-logo-carousel.php:176
+#: widgets/logo-carousel/widget-logo-carousel.php:187
+#: widgets/openstreet-map/register-controls.php:63
+#: widgets/openstreet-map/register-controls.php:88
+#: widgets/page-title/register-controls.php:60
+#: widgets/page-title/register-controls.php:123
+#: widgets/pdf-viewer/widget-pdf-viewer.php:121
+#: widgets/post-list/register-controls.php:178
+#: widgets/post-title/register-controls.php:60
+#: widgets/post-title/register-controls.php:123
+#: widgets/review/register-controls.php:89
+#: widgets/site-logo/register-controls.php:37
+#: widgets/team-member/register-controls.php:112
+#: widgets/team-member/register-controls.php:447
+#: widgets/testimonial-carousel/register-controls.php:202
+#: widgets/testimonial-carousel/register-controls.php:300
+#: widgets/testimonial-carousel/register-controls.php:311
+#: widgets/testimonial-carousel/register-controls.php:333
+#: widgets/testimonial/register-controls.php:161
+msgid "Yes"
+msgstr ""
+
+#: extensions/equal-height.php:80
+#: widgets/avatar-group/register-controls.php:39
+#: widgets/facebook-feed/register-controls.php:148
+#: widgets/facebook-feed/register-controls.php:160
+#: widgets/flex-card/register-controls.php:104
+#: widgets/image-compare/widget-image-compare.php:150
+#: widgets/image-compare/widget-image-compare.php:177
+#: widgets/image-compare/widget-image-compare.php:189
+#: widgets/image-compare/widget-image-compare.php:201
+#: widgets/logo-carousel/widget-logo-carousel.php:154
+#: widgets/logo-carousel/widget-logo-carousel.php:177
+#: widgets/logo-carousel/widget-logo-carousel.php:188
+#: widgets/openstreet-map/register-controls.php:64
+#: widgets/openstreet-map/register-controls.php:89
+#: widgets/page-title/register-controls.php:61
+#: widgets/page-title/register-controls.php:124
+#: widgets/pdf-viewer/widget-pdf-viewer.php:122
+#: widgets/post-list/register-controls.php:179
+#: widgets/post-title/register-controls.php:61
+#: widgets/post-title/register-controls.php:124
+#: widgets/review/register-controls.php:90
+#: widgets/site-logo/register-controls.php:38
+#: widgets/team-member/register-controls.php:113
+#: widgets/team-member/register-controls.php:448
+#: widgets/testimonial-carousel/register-controls.php:203
+#: widgets/testimonial-carousel/register-controls.php:301
+#: widgets/testimonial-carousel/register-controls.php:312
+#: widgets/testimonial-carousel/register-controls.php:334
+#: widgets/testimonial/register-controls.php:162
+msgid "No"
+msgstr ""
+
+#: extensions/wrapper-link.php:35
+#: widgets/image-masking/register-controls.php:234
+#: widgets/testimonial/register-controls.php:333
+msgid "Wrapper Link"
+msgstr ""
+
+#: extensions/wrapper-link.php:43
+#: widgets/advanced-heading/register-controls.php:105
+#: widgets/advanced-heading/register-controls.php:113
+#: widgets/call-to-action/register-controls.php:282
+#: widgets/dual-button/register-controls.php:46
+#: widgets/dual-button/register-controls.php:176
+#: widgets/flip-box/register-controls.php:184
+#: widgets/hover-link/register-controls.php:109
+#: widgets/hover-link/register-controls.php:127
+#: widgets/image-masking/register-controls.php:242
+#: widgets/info-card/register-controls.php:306
+#: widgets/logo-carousel/widget-logo-carousel.php:113
+#: widgets/simple-heading/widget-simple-heading.php:112
+#: widgets/team-member/register-controls.php:660
+#: widgets/testimonial/register-controls.php:341
+msgid "Link"
+msgstr ""
+
+#: includes/theme-builder/theme-builder-class.php:45
+msgid "Banana Templates"
+msgstr ""
+
+#: includes/theme-builder/theme-builder-class.php:46
+msgid "Banana Template"
+msgstr ""
+
+#: includes/theme-builder/theme-builder-class.php:47
+msgid "Add New"
+msgstr ""
+
+#: includes/theme-builder/theme-builder-class.php:48
+msgid "Add New Template"
+msgstr ""
+
+#: includes/theme-builder/theme-builder-class.php:49
+msgid "Edit Template"
+msgstr ""
+
+#: includes/theme-builder/theme-builder-class.php:50
+msgid "New Template"
+msgstr ""
+
+#: includes/theme-builder/theme-builder-class.php:51
+msgid "View Template"
+msgstr ""
+
+#: includes/theme-builder/theme-builder-class.php:52
+msgid "Search Templates"
+msgstr ""
+
+#: includes/theme-builder/theme-builder-class.php:131
+#: widgets/business-hours/register-controls.php:49
+#: widgets/business-hours/register-controls.php:189
+#: widgets/call-to-action/register-controls.php:191
+#: widgets/call-to-action/register-controls.php:323
+#: widgets/call-to-action/register-controls.php:866
+#: widgets/facebook-feed/register-controls.php:394
+#: widgets/flex-card/register-controls.php:325
+#: widgets/flex-card/register-controls.php:881
+#: widgets/flip-box/register-controls.php:106
+#: widgets/flip-box/register-controls.php:144
+#: widgets/flip-box/register-controls.php:930
+#: widgets/flip-box/register-controls.php:1220
+#: widgets/hover-link/register-controls.php:63
+#: widgets/info-card/register-controls.php:206
+#: widgets/info-card/register-controls.php:662
+#: widgets/post-list/register-controls.php:78
+#: widgets/post-list/register-controls.php:466
+#: widgets/simple-heading/widget-simple-heading.php:89
+#: widgets/testimonial-carousel/register-controls.php:709
+#: widgets/testimonial/register-controls.php:600
+msgid "Title"
+msgstr ""
+
+#: includes/theme-builder/theme-builder-class.php:132
+msgid "Type"
+msgstr ""
+
+#: includes/theme-builder/theme-builder-class.php:133
+msgid "Conditions"
+msgstr ""
+
+#: includes/theme-builder/theme-builder-class.php:134
+#: widgets/post-list/register-controls.php:77
+msgid "Date"
+msgstr ""
+
+#: includes/theme-builder/theme-builder-class.php:135
+msgid "Author"
+msgstr ""
+
+#: includes/theme-builder/theme-builder-class.php:253
+msgid "Edit with Elementor"
+msgstr ""
+
+#: widgets/advanced-google-map/register-controls.php:25
+#: widgets/openstreet-map/register-controls.php:29
+msgid "Map Settings"
+msgstr ""
+
+#: widgets/advanced-google-map/register-controls.php:32
+#: widgets/openstreet-map/register-controls.php:126
+msgid "Latitude"
+msgstr ""
+
+#: widgets/advanced-google-map/register-controls.php:41
+#: widgets/openstreet-map/register-controls.php:136
+msgid "Longitude"
+msgstr ""
+
+#: widgets/advanced-google-map/register-controls.php:50
+#: widgets/openstreet-map/register-controls.php:73
+msgid "Zoom Level"
+msgstr ""
+
+#: widgets/advanced-google-map/register-controls.php:68
+msgid "Map Theme"
+msgstr ""
+
+#: widgets/advanced-google-map/register-controls.php:72
+#: widgets/openstreet-map/register-controls.php:40
+msgid "Standard"
+msgstr ""
+
+#: widgets/advanced-google-map/register-controls.php:73
+msgid "Silver"
+msgstr ""
+
+#: widgets/advanced-google-map/register-controls.php:74
+msgid "Retro"
+msgstr ""
+
+#: widgets/advanced-google-map/register-controls.php:75
+#: widgets/code-highlighter/register-controls.php:122
+#: widgets/openstreet-map/register-controls.php:42
+msgid "Dark"
+msgstr ""
+
+#: widgets/advanced-google-map/register-controls.php:76
+msgid "Night"
+msgstr ""
+
+#: widgets/advanced-google-map/register-controls.php:77
+msgid "Aubergine"
+msgstr ""
+
+#: widgets/advanced-google-map/register-controls.php:85
+msgid "Marker Label"
+msgstr ""
+
+#: widgets/advanced-google-map/widget-advanced-google-map.php:28
+msgid "Advanced GMap"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:27
+#: widgets/pricing-table/register-controls.php:104
+#: widgets/pricing-table/register-controls.php:125
+#: widgets/pricing-table/register-controls.php:507
+#: widgets/pricing-table/register-controls.php:514
+msgid "Heading"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:35
+#: widgets/animated-heading/register-controls.php:36
+#: widgets/animated-heading/register-controls.php:293
+#: widgets/text-animation/widget-text-animation.php:103
+#: widgets/text-animation/widget-text-animation.php:242
+msgid "Before Text"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:37
+#: widgets/advanced-heading/register-controls.php:38
+#: widgets/advanced-heading/register-controls.php:211
+msgid "Text Before"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:48
+#: widgets/advanced-heading/register-controls.php:50
+#: widgets/advanced-heading/register-controls.php:51
+#: widgets/advanced-heading/register-controls.php:355
+msgid "Text Center"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:61
+#: widgets/advanced-heading/register-controls.php:63
+#: widgets/advanced-heading/register-controls.php:64
+#: widgets/advanced-heading/register-controls.php:498
+msgid "Text After"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:74
+#: widgets/advanced-heading/register-controls.php:87
+#: widgets/advanced-heading/register-controls.php:89
+#: widgets/advanced-heading/register-controls.php:90
+#: widgets/advanced-heading/register-controls.php:642
+msgid "Background Text"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:76
+#: widgets/business-hours/register-controls.php:39
+#: widgets/call-to-action/register-controls.php:256
+#: widgets/code-highlighter/register-controls.php:35
+#: widgets/code-highlighter/register-controls.php:155
+#: widgets/code-highlighter/register-controls.php:178
+#: widgets/facebook-feed/register-controls.php:197
+#: widgets/facebook-feed/register-controls.php:209
+#: widgets/facebook-feed/register-controls.php:221
+#: widgets/facebook-feed/register-controls.php:233
+#: widgets/facebook-feed/register-controls.php:245
+#: widgets/facebook-feed/register-controls.php:260
+#: widgets/flex-card/register-controls.php:288
+#: widgets/pricing-table/register-controls.php:38
+#: widgets/pricing-table/register-controls.php:272
+#: widgets/team-member/register-controls.php:404
+#: widgets/team-member/register-controls.php:615
+#: widgets/testimonial-carousel/register-controls.php:89
+msgid "Show"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:77
+#: widgets/business-hours/register-controls.php:40
+#: widgets/call-to-action/register-controls.php:257
+#: widgets/code-highlighter/register-controls.php:36
+#: widgets/code-highlighter/register-controls.php:156
+#: widgets/code-highlighter/register-controls.php:179
+#: widgets/facebook-feed/register-controls.php:198
+#: widgets/facebook-feed/register-controls.php:210
+#: widgets/facebook-feed/register-controls.php:222
+#: widgets/facebook-feed/register-controls.php:234
+#: widgets/facebook-feed/register-controls.php:246
+#: widgets/facebook-feed/register-controls.php:261
+#: widgets/flex-card/register-controls.php:289
+#: widgets/pricing-table/register-controls.php:39
+#: widgets/pricing-table/register-controls.php:273
+#: widgets/team-member/register-controls.php:405
+#: widgets/team-member/register-controls.php:616
+#: widgets/testimonial-carousel/register-controls.php:90
+msgid "Hide"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:115
+msgid "https://example.com/"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:128
+msgid "Tag & Alignment"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:136
+#: widgets/info-card/register-controls.php:236
+#: widgets/page-title/register-controls.php:101
+#: widgets/post-title/register-controls.php:101
+#: widgets/simple-heading/widget-simple-heading.php:105
+#: widgets/site-title/register-controls.php:59
+#: widgets/text-animation/widget-text-animation.php:228
+msgid "HTML Tag"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:147
+#: widgets/animated-heading/register-controls.php:96
+#: widgets/avatar-group/register-controls.php:203
+#: widgets/business-hours/register-controls.php:217
+#: widgets/business-hours/register-controls.php:421
+#: widgets/business-hours/register-controls.php:476
+#: widgets/call-to-action/register-controls.php:412
+#: widgets/dual-button/register-controls.php:317
+#: widgets/dual-button/register-controls.php:372
+#: widgets/dual-button/register-controls.php:417
+#: widgets/dual-button/register-controls.php:583
+#: widgets/flex-card/register-controls.php:804
+#: widgets/flip-box/register-controls.php:504
+#: widgets/flip-box/register-controls.php:1145
+#: widgets/hover-link/register-controls.php:77
+#: widgets/info-card/register-controls.php:247
+#: widgets/page-title/register-controls.php:32
+#: widgets/paypal-button/register-controls.php:244
+#: widgets/post-list/register-controls.php:368
+#: widgets/post-title/register-controls.php:32
+#: widgets/pricing-table/register-controls.php:600
+#: widgets/review/register-controls.php:132
+#: widgets/simple-heading/widget-simple-heading.php:118
+#: widgets/site-logo/register-controls.php:101
+#: widgets/site-title/register-controls.php:32
+#: widgets/smart-paypal-button/register-controls.php:120
+#: widgets/stripe-button/register-controls.php:48
+#: widgets/team-member/register-controls.php:361
+#: widgets/testimonial-carousel/register-controls.php:41
+#: widgets/testimonial/register-controls.php:52
+#: widgets/text-animation/widget-text-animation.php:202
+msgid "Alignment"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:151
+#: widgets/animated-heading/register-controls.php:100
+#: widgets/avatar-group/register-controls.php:207
+#: widgets/business-hours/register-controls.php:221
+#: widgets/business-hours/register-controls.php:425
+#: widgets/business-hours/register-controls.php:480
+#: widgets/call-to-action/register-controls.php:60
+#: widgets/call-to-action/register-controls.php:354
+#: widgets/call-to-action/register-controls.php:416
+#: widgets/dual-button/register-controls.php:321
+#: widgets/dual-button/register-controls.php:377
+#: widgets/dual-button/register-controls.php:421
+#: widgets/dual-button/register-controls.php:587
+#: widgets/flex-card/register-controls.php:69
+#: widgets/flex-card/register-controls.php:139
+#: widgets/flex-card/register-controls.php:441
+#: widgets/flex-card/register-controls.php:808
+#: widgets/flip-box/register-controls.php:320
+#: widgets/flip-box/register-controls.php:508
+#: widgets/flip-box/register-controls.php:1149
+#: widgets/hover-link/register-controls.php:81
+#: widgets/image-masking/register-controls.php:102
+#: widgets/info-card/register-controls.php:128
+#: widgets/info-card/register-controls.php:251
+#: widgets/page-title/register-controls.php:36
+#: widgets/paypal-button/register-controls.php:248
+#: widgets/post-list/register-controls.php:719
+#: widgets/post-title/register-controls.php:36
+#: widgets/pricing-table/register-controls.php:111
+#: widgets/pricing-table/register-controls.php:291
+#: widgets/pricing-table/register-controls.php:604
+#: widgets/review/register-controls.php:136
+#: widgets/review/register-controls.php:254
+#: widgets/site-logo/register-controls.php:105
+#: widgets/site-title/register-controls.php:36
+#: widgets/smart-paypal-button/register-controls.php:124
+#: widgets/stripe-button/register-controls.php:52
+#: widgets/team-member/register-controls.php:145
+#: widgets/team-member/register-controls.php:365
+#: widgets/testimonial-carousel/register-controls.php:46
+#: widgets/testimonial-carousel/register-controls.php:350
+#: widgets/testimonial/register-controls.php:57
+#: widgets/testimonial/register-controls.php:194
+#: widgets/text-animation/widget-text-animation.php:206
+msgid "Left"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:155
+#: widgets/animated-heading/register-controls.php:104
+#: widgets/avatar-group/register-controls.php:211
+#: widgets/business-hours/register-controls.php:225
+#: widgets/business-hours/register-controls.php:429
+#: widgets/business-hours/register-controls.php:484
+#: widgets/call-to-action/register-controls.php:420
+#: widgets/dual-button/register-controls.php:325
+#: widgets/dual-button/register-controls.php:381
+#: widgets/dual-button/register-controls.php:425
+#: widgets/dual-button/register-controls.php:591
+#: widgets/flex-card/register-controls.php:138
+#: widgets/flip-box/register-controls.php:512
+#: widgets/flip-box/register-controls.php:1153
+#: widgets/hover-link/register-controls.php:85
+#: widgets/image-masking/register-controls.php:101
+#: widgets/info-card/register-controls.php:154
+#: widgets/info-card/register-controls.php:255
+#: widgets/page-title/register-controls.php:40
+#: widgets/paypal-button/register-controls.php:252
+#: widgets/post-list/register-controls.php:376
+#: widgets/post-title/register-controls.php:40
+#: widgets/pricing-table/register-controls.php:112
+#: widgets/pricing-table/register-controls.php:292
+#: widgets/pricing-table/register-controls.php:608
+#: widgets/review/register-controls.php:140
+#: widgets/site-logo/register-controls.php:109
+#: widgets/site-title/register-controls.php:40
+#: widgets/smart-paypal-button/register-controls.php:128
+#: widgets/stripe-button/register-controls.php:56
+#: widgets/team-member/register-controls.php:144
+#: widgets/team-member/register-controls.php:369
+#: widgets/testimonial-carousel/register-controls.php:50
+#: widgets/testimonial-carousel/register-controls.php:349
+#: widgets/testimonial/register-controls.php:61
+#: widgets/testimonial/register-controls.php:193
+#: widgets/text-animation/widget-text-animation.php:210
+msgid "Center"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:159
+#: widgets/animated-heading/register-controls.php:108
+#: widgets/avatar-group/register-controls.php:215
+#: widgets/business-hours/register-controls.php:229
+#: widgets/business-hours/register-controls.php:433
+#: widgets/business-hours/register-controls.php:488
+#: widgets/call-to-action/register-controls.php:68
+#: widgets/call-to-action/register-controls.php:358
+#: widgets/call-to-action/register-controls.php:424
+#: widgets/dual-button/register-controls.php:329
+#: widgets/dual-button/register-controls.php:385
+#: widgets/dual-button/register-controls.php:429
+#: widgets/dual-button/register-controls.php:595
+#: widgets/flex-card/register-controls.php:77
+#: widgets/flex-card/register-controls.php:140
+#: widgets/flex-card/register-controls.php:445
+#: widgets/flex-card/register-controls.php:816
+#: widgets/flip-box/register-controls.php:324
+#: widgets/flip-box/register-controls.php:516
+#: widgets/flip-box/register-controls.php:1157
+#: widgets/hover-link/register-controls.php:89
+#: widgets/image-masking/register-controls.php:103
+#: widgets/info-card/register-controls.php:259
+#: widgets/page-title/register-controls.php:44
+#: widgets/paypal-button/register-controls.php:256
+#: widgets/post-list/register-controls.php:723
+#: widgets/post-title/register-controls.php:44
+#: widgets/pricing-table/register-controls.php:113
+#: widgets/pricing-table/register-controls.php:293
+#: widgets/pricing-table/register-controls.php:612
+#: widgets/review/register-controls.php:144
+#: widgets/site-logo/register-controls.php:113
+#: widgets/site-title/register-controls.php:44
+#: widgets/smart-paypal-button/register-controls.php:132
+#: widgets/stripe-button/register-controls.php:60
+#: widgets/team-member/register-controls.php:146
+#: widgets/team-member/register-controls.php:373
+#: widgets/testimonial-carousel/register-controls.php:54
+#: widgets/testimonial-carousel/register-controls.php:351
+#: widgets/testimonial/register-controls.php:65
+#: widgets/testimonial/register-controls.php:195
+#: widgets/text-animation/widget-text-animation.php:214
+msgid "Right"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:180
+#: widgets/flex-card/register-controls.php:465
+#: widgets/flex-card/register-controls.php:472
+#: widgets/logo-carousel/widget-logo-carousel.php:196
+#: widgets/post-list/register-controls.php:91
+msgid "Layout"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:184
+msgid "Inline"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:188
+msgid "Block"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:219
+#: widgets/advanced-heading/register-controls.php:363
+#: widgets/advanced-heading/register-controls.php:506
+#: widgets/call-to-action/register-controls.php:1479
+#: widgets/flip-box/register-controls.php:462
+#: widgets/flip-box/register-controls.php:1103
+#: widgets/simple-heading/widget-simple-heading.php:176
+msgid "Blend Mode"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:223
+#: widgets/advanced-heading/register-controls.php:367
+#: widgets/advanced-heading/register-controls.php:510
+#: widgets/call-to-action/register-controls.php:972
+#: widgets/call-to-action/register-controls.php:1227
+#: widgets/call-to-action/register-controls.php:1453
+#: widgets/call-to-action/register-controls.php:1482
+#: widgets/dual-button/register-controls.php:493
+#: widgets/dual-button/register-controls.php:658
+#: widgets/flex-card/register-controls.php:1146
+#: widgets/flip-box/register-controls.php:465
+#: widgets/flip-box/register-controls.php:1106
+#: widgets/flip-box/register-controls.php:1410
+#: widgets/hover-link/register-controls.php:178
+#: widgets/info-card/register-controls.php:824
+#: widgets/logo-carousel/widget-logo-carousel.php:543
+#: widgets/paypal-button/register-controls.php:330
+#: widgets/paypal-button/register-controls.php:362
+#: widgets/post-list/register-controls.php:504
+#: widgets/post-list/register-controls.php:880
+#: widgets/pricing-table/register-controls.php:854
+#: widgets/simple-heading/widget-simple-heading.php:179
+#: widgets/team-member/register-controls.php:42
+#: widgets/team-member/register-controls.php:463
+#: widgets/team-member/register-controls.php:739
+#: widgets/team-member/register-controls.php:1200
+msgid "Normal"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:246
+#: widgets/advanced-heading/register-controls.php:390
+#: widgets/advanced-heading/register-controls.php:533
+#: widgets/animated-heading/register-controls.php:309
+#: widgets/avatar-group/register-controls.php:328
+#: widgets/business-hours/register-controls.php:205
+#: widgets/call-to-action/register-controls.php:1234
+#: widgets/call-to-action/register-controls.php:1284
+#: widgets/call-to-action/register-controls.php:1357
+#: widgets/code-highlighter/register-controls.php:369
+#: widgets/facebook-feed/register-controls.php:439
+#: widgets/facebook-feed/register-controls.php:473
+#: widgets/facebook-feed/register-controls.php:593
+#: widgets/flex-card/register-controls.php:716
+#: widgets/flex-card/register-controls.php:1151
+#: widgets/flex-card/register-controls.php:1211
+#: widgets/flip-box/register-controls.php:968
+#: widgets/flip-box/register-controls.php:1018
+#: widgets/flip-box/register-controls.php:1257
+#: widgets/flip-box/register-controls.php:1334
+#: widgets/flip-box/register-controls.php:1420
+#: widgets/flip-box/register-controls.php:1483
+#: widgets/info-card/register-controls.php:682
+#: widgets/info-card/register-controls.php:726
+#: widgets/info-card/register-controls.php:831
+#: widgets/info-card/register-controls.php:872
+#: widgets/openstreet-map/register-controls.php:207
+#: widgets/page-title/register-controls.php:147
+#: widgets/paypal-button/register-controls.php:348
+#: widgets/paypal-button/register-controls.php:380
+#: widgets/pdf-viewer/widget-pdf-viewer.php:153
+#: widgets/post-list/register-controls.php:897
+#: widgets/post-list/register-controls.php:936
+#: widgets/post-title/register-controls.php:147
+#: widgets/pricing-table/register-controls.php:587
+#: widgets/pricing-table/register-controls.php:865
+#: widgets/pricing-table/register-controls.php:899
+#: widgets/pricing-table/register-controls.php:953
+#: widgets/review/register-controls.php:453
+#: widgets/review/register-controls.php:474
+#: widgets/review/register-controls.php:555
+#: widgets/site-title/register-controls.php:90
+#: widgets/team-member/register-controls.php:470
+#: widgets/team-member/register-controls.php:535
+#: widgets/team-member/register-controls.php:926
+#: widgets/team-member/register-controls.php:977
+#: widgets/team-member/register-controls.php:1028
+#: widgets/team-member/register-controls.php:1207
+#: widgets/team-member/register-controls.php:1239
+#: widgets/testimonial-carousel/register-controls.php:600
+#: widgets/testimonial-carousel/register-controls.php:674
+#: widgets/testimonial-carousel/register-controls.php:718
+#: widgets/testimonial/register-controls.php:394
+#: widgets/testimonial/register-controls.php:565
+#: widgets/testimonial/register-controls.php:609
+#: widgets/text-animation/widget-text-animation.php:258
+#: widgets/text-animation/widget-text-animation.php:289
+#: widgets/text-animation/widget-text-animation.php:320
+msgid "Text Color"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:259
+#: widgets/advanced-heading/register-controls.php:403
+#: widgets/advanced-heading/register-controls.php:546
+#: widgets/simple-heading/widget-simple-heading.php:250
+#: widgets/simple-heading/widget-simple-heading.php:305
+msgid "Gradient Color"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:286
+#: widgets/advanced-heading/register-controls.php:430
+#: widgets/advanced-heading/register-controls.php:573
+#: widgets/page-title/register-controls.php:169
+#: widgets/post-title/register-controls.php:169
+#: widgets/site-title/register-controls.php:112
+msgid "Text Shadow"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:301
+#: widgets/advanced-heading/register-controls.php:445
+#: widgets/advanced-heading/register-controls.php:588
+#: widgets/business-hours/register-controls.php:269
+#: widgets/business-hours/register-controls.php:369
+#: widgets/call-to-action/register-controls.php:461
+#: widgets/call-to-action/register-controls.php:1142
+#: widgets/code-highlighter/register-controls.php:327
+#: widgets/code-highlighter/register-controls.php:380
+#: widgets/dual-button/register-controls.php:478
+#: widgets/dual-button/register-controls.php:643
+#: widgets/facebook-feed/register-controls.php:303
+#: widgets/facebook-feed/register-controls.php:503
+#: widgets/flex-card/register-controls.php:543
+#: widgets/flex-card/register-controls.php:736
+#: widgets/flex-card/register-controls.php:831
+#: widgets/flex-card/register-controls.php:1084
+#: widgets/flip-box/register-controls.php:491
+#: widgets/flip-box/register-controls.php:1132
+#: widgets/hover-link/register-controls.php:160
+#: widgets/info-card/register-controls.php:557
+#: widgets/info-card/register-controls.php:771
+#: widgets/paypal-button/register-controls.php:293
+#: widgets/post-list/register-controls.php:256
+#: widgets/post-list/register-controls.php:395
+#: widgets/post-list/register-controls.php:598
+#: widgets/post-list/register-controls.php:828
+#: widgets/pricing-table/register-controls.php:346
+#: widgets/pricing-table/register-controls.php:561
+#: widgets/pricing-table/register-controls.php:809
+#: widgets/review/register-controls.php:182
+#: widgets/review/register-controls.php:291
+#: widgets/site-logo/register-controls.php:213
+#: widgets/team-member/register-controls.php:882
+#: widgets/team-member/register-controls.php:1093
+#: widgets/team-member/register-controls.php:1140
+#: widgets/testimonial-carousel/register-controls.php:525
+#: widgets/testimonial-carousel/register-controls.php:576
+#: widgets/testimonial-carousel/register-controls.php:808
+#: widgets/testimonial-carousel/register-controls.php:883
+#: widgets/testimonial/register-controls.php:370
+msgid "Padding"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:313
+#: widgets/advanced-heading/register-controls.php:457
+#: widgets/advanced-heading/register-controls.php:600
+#: widgets/call-to-action/register-controls.php:555
+#: widgets/call-to-action/register-controls.php:676
+#: widgets/call-to-action/register-controls.php:906
+#: widgets/call-to-action/register-controls.php:947
+#: widgets/info-card/register-controls.php:532
+#: widgets/testimonial-carousel/register-controls.php:794
+#: widgets/testimonial/register-controls.php:504
+msgid "Spacing"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:340
+#: widgets/advanced-heading/register-controls.php:484
+#: widgets/advanced-heading/register-controls.php:627
+#: widgets/business-hours/register-controls.php:283
+#: widgets/business-hours/register-controls.php:334
+#: widgets/call-to-action/register-controls.php:616
+#: widgets/call-to-action/register-controls.php:824
+#: widgets/call-to-action/register-controls.php:1206
+#: widgets/code-highlighter/register-controls.php:273
+#: widgets/code-highlighter/register-controls.php:437
+#: widgets/dual-button/register-controls.php:466
+#: widgets/dual-button/register-controls.php:631
+#: widgets/dual-button/register-controls.php:830
+#: widgets/facebook-feed/register-controls.php:339
+#: widgets/facebook-feed/register-controls.php:372
+#: widgets/facebook-feed/register-controls.php:568
+#: widgets/flex-card/register-controls.php:576
+#: widgets/flex-card/register-controls.php:763
+#: widgets/flex-card/register-controls.php:858
+#: widgets/flex-card/register-controls.php:1103
+#: widgets/flip-box/register-controls.php:273
+#: widgets/flip-box/register-controls.php:378
+#: widgets/flip-box/register-controls.php:675
+#: widgets/flip-box/register-controls.php:913
+#: widgets/flip-box/register-controls.php:1576
+#: widgets/info-card/register-controls.php:589
+#: widgets/info-card/register-controls.php:799
+#: widgets/logo-carousel/widget-logo-carousel.php:299
+#: widgets/logo-carousel/widget-logo-carousel.php:429
+#: widgets/logo-carousel/widget-logo-carousel.php:507
+#: widgets/openstreet-map/register-controls.php:218
+#: widgets/paypal-button/register-controls.php:305
+#: widgets/post-list/register-controls.php:276
+#: widgets/post-list/register-controls.php:435
+#: widgets/post-list/register-controls.php:848
+#: widgets/pricing-table/register-controls.php:373
+#: widgets/pricing-table/register-controls.php:829
+#: widgets/review/register-controls.php:211
+#: widgets/review/register-controls.php:320
+#: widgets/site-logo/register-controls.php:172
+#: widgets/team-member/register-controls.php:505
+#: widgets/team-member/register-controls.php:708
+#: widgets/team-member/register-controls.php:1171
+#: widgets/testimonial-carousel/register-controls.php:545
+#: widgets/testimonial-carousel/register-controls.php:635
+#: widgets/testimonial-carousel/register-controls.php:828
+#: widgets/testimonial-carousel/register-controls.php:961
+#: widgets/testimonial-carousel/register-controls.php:1114
+#: widgets/testimonial/register-controls.php:429
+#: widgets/testimonial/register-controls.php:526
+msgid "Border Radius"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:652
+msgid "<strong>Turn On</strong> Background Text under content tab"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:662
+#: widgets/advanced-heading/register-controls.php:833
+#: widgets/animated-heading/register-controls.php:57
+#: widgets/business-hours/register-controls.php:402
+#: widgets/business-hours/register-controls.php:457
+#: widgets/dual-button/register-controls.php:511
+#: widgets/dual-button/register-controls.php:546
+#: widgets/dual-button/register-controls.php:676
+#: widgets/dual-button/register-controls.php:710
+#: widgets/dual-button/register-controls.php:799
+#: widgets/flex-card/register-controls.php:892
+#: widgets/flex-card/register-controls.php:946
+#: widgets/flex-card/register-controls.php:999
+#: widgets/hover-link/register-controls.php:185
+#: widgets/hover-link/register-controls.php:206
+#: widgets/info-card/register-controls.php:395
+#: widgets/post-list/register-controls.php:511
+#: widgets/post-list/register-controls.php:531
+#: widgets/post-list/register-controls.php:567
+#: widgets/pricing-table/register-controls.php:521
+#: widgets/pricing-table/register-controls.php:541
+#: widgets/pricing-table/register-controls.php:729
+#: widgets/pricing-table/register-controls.php:750
+#: widgets/pricing-table/register-controls.php:771
+#: widgets/pricing-table/register-controls.php:979
+msgid "Color"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:691
+#: widgets/advanced-heading/register-controls.php:862
+#: widgets/flex-card/register-controls.php:1122
+#: widgets/info-card/register-controls.php:476
+msgid "Offset"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:693
+#: widgets/advanced-heading/register-controls.php:771
+#: widgets/advanced-heading/register-controls.php:864
+#: widgets/call-to-action/register-controls.php:126
+#: widgets/flip-box/register-controls.php:43
+#: widgets/info-card/register-controls.php:478
+#: widgets/paypal-button/register-controls.php:167
+#: widgets/pricing-table/register-controls.php:213
+msgid "None"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:694
+#: widgets/advanced-heading/register-controls.php:865
+#: widgets/flex-card/register-controls.php:142
+#: widgets/flex-card/register-controls.php:216
+#: widgets/image-masking/register-controls.php:105
+#: widgets/image-masking/register-controls.php:173
+#: widgets/info-card/register-controls.php:479
+#: widgets/pricing-table/register-controls.php:220
+#: widgets/team-member/register-controls.php:148
+#: widgets/team-member/register-controls.php:222
+#: widgets/testimonial-carousel/register-controls.php:353
+#: widgets/testimonial-carousel/register-controls.php:426
+#: widgets/testimonial/register-controls.php:197
+#: widgets/testimonial/register-controls.php:270
+msgid "Custom"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:707
+#: widgets/advanced-heading/register-controls.php:878
+msgid "Horizontal Position"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:731
+#: widgets/advanced-heading/register-controls.php:902
+#: widgets/call-to-action/register-controls.php:438
+#: widgets/flip-box/register-controls.php:530
+#: widgets/flip-box/register-controls.php:1172
+msgid "Vertical Position"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:760
+msgid "Heading Border"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:768
+msgid "Border Type"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:772
+#: widgets/code-highlighter/register-controls.php:121
+msgid "Solid"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:773
+msgid "Double"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:774
+msgid "Dotted"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:775
+msgid "Dashed"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:776
+msgid "Groove"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:788
+msgid "Length"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:809
+#: widgets/avatar-group/register-controls.php:91
+#: widgets/call-to-action/register-controls.php:486
+#: widgets/call-to-action/register-controls.php:581
+#: widgets/dual-button/register-controls.php:741
+#: widgets/flex-card/register-controls.php:500
+#: widgets/flip-box/register-controls.php:615
+#: widgets/info-card/register-controls.php:430
+#: widgets/logo-carousel/widget-logo-carousel.php:330
+#: widgets/post-list/register-controls.php:316
+#: widgets/team-member/register-controls.php:830
+#: widgets/testimonial-carousel/register-controls.php:750
+#: widgets/testimonial-carousel/register-controls.php:992
+#: widgets/testimonial/register-controls.php:460
+msgid "Width"
+msgstr ""
+
+#: widgets/advanced-heading/register-controls.php:847
+msgid "Border radius"
+msgstr ""
+
+#: widgets/advanced-heading/widget-advanced-heading.php:27
+msgid "Advanced Heading"
+msgstr ""
+
+#: widgets/animated-heading/register-controls.php:28
+#: widgets/avatar-group/register-controls.php:50
+#: widgets/business-hours/register-controls.php:29
+#: widgets/call-to-action/register-controls.php:114
+#: widgets/call-to-action/register-controls.php:842
+#: widgets/facebook-feed/register-controls.php:60
+#: widgets/facebook-feed/register-controls.php:386
+#: widgets/flex-card/register-controls.php:318
+#: widgets/flex-card/register-controls.php:794
+#: widgets/page-title/register-controls.php:25
+#: widgets/pdf-viewer/widget-pdf-viewer.php:95
+#: widgets/post-list/register-controls.php:550
+#: widgets/post-title/register-controls.php:25
+#: widgets/site-logo/register-controls.php:28
+#: widgets/site-title/register-controls.php:25
+#: widgets/text-animation/widget-text-animation.php:95
+msgid "Content"
+msgstr ""
+
+#: widgets/animated-heading/register-controls.php:38
+msgid "We are"
+msgstr ""
+
+#: widgets/animated-heading/register-controls.php:45
+#: widgets/animated-heading/register-controls.php:323
+msgid "Animated Words"
+msgstr ""
+
+#: widgets/animated-heading/register-controls.php:50
+msgid "Word"
+msgstr ""
+
+#: widgets/animated-heading/register-controls.php:52
+msgid "Word Title"
+msgstr ""
+
+#: widgets/animated-heading/register-controls.php:69
+msgid "pizza"
+msgstr ""
+
+#: widgets/animated-heading/register-controls.php:72
+msgid "sushi"
+msgstr ""
+
+#: widgets/animated-heading/register-controls.php:75
+msgid "steak"
+msgstr ""
+
+#: widgets/animated-heading/register-controls.php:85
+#: widgets/call-to-action/register-controls.php:206
+#: widgets/flex-card/register-controls.php:339
+#: widgets/flip-box/register-controls.php:220
+#: widgets/team-member/register-controls.php:324
+msgid "Title HTML Tag"
+msgstr ""
+
+#: widgets/animated-heading/register-controls.php:120
+#: widgets/text-animation/widget-text-animation.php:141
+msgid "Animation Type"
+msgstr ""
+
+#: widgets/animated-heading/register-controls.php:140
+#: widgets/progress-bar/register-controls.php:63
+msgid "Bar Color"
+msgstr ""
+
+#: widgets/animated-heading/register-controls.php:157
+msgid "Cursor Color"
+msgstr ""
+
+#: widgets/animated-heading/register-controls.php:174
+msgid "Cursor Width"
+msgstr ""
+
+#: widgets/animated-heading/register-controls.php:191
+msgid "Animation Delay"
+msgstr ""
+
+#: widgets/animated-heading/register-controls.php:202
+msgid "Bar Animation Delay"
+msgstr ""
+
+#: widgets/animated-heading/register-controls.php:217
+msgid "Letters Animation Delay"
+msgstr ""
+
+#: widgets/animated-heading/register-controls.php:232
+msgid "Type Letters Delay"
+msgstr ""
+
+#: widgets/animated-heading/register-controls.php:246
+msgid "Selection Duration"
+msgstr ""
+
+#: widgets/animated-heading/register-controls.php:261
+msgid "Reveal Duration"
+msgstr ""
+
+#: widgets/animated-heading/register-controls.php:275
+msgid "Reveal Animation Delay"
+msgstr ""
+
+#: widgets/avatar-group/register-controls.php:28
+#: widgets/avatar-group/register-controls.php:297
+msgid "Tooltips"
+msgstr ""
+
+#: widgets/avatar-group/register-controls.php:36
+msgid "Show Tooltips?"
+msgstr ""
+
+#: widgets/avatar-group/register-controls.php:60
+#: widgets/avatar-group/register-controls.php:62
+#: widgets/review/register-controls.php:58
+#: widgets/team-member/register-controls.php:282
+#: widgets/team-member/register-controls.php:918
+#: widgets/testimonial-carousel/register-controls.php:666
+#: widgets/testimonial/register-controls.php:131
+#: widgets/testimonial/register-controls.php:557
+msgid "Name"
+msgstr ""
+
+#: widgets/avatar-group/register-controls.php:70
+#: widgets/call-to-action/register-controls.php:86
+#: widgets/call-to-action/register-controls.php:145
+#: widgets/flip-box/register-controls.php:62
+#: widgets/image-masking/register-controls.php:34
+msgid "Choose Image"
+msgstr ""
+
+#: widgets/avatar-group/register-controls.php:118
+#: widgets/call-to-action/register-controls.php:382
+#: widgets/call-to-action/register-controls.php:513
+#: widgets/dual-button/register-controls.php:764
+#: widgets/flex-card/register-controls.php:522
+#: widgets/flip-box/register-controls.php:242
+#: widgets/info-card/register-controls.php:455
+#: widgets/logo-carousel/widget-logo-carousel.php:344
+#: widgets/post-list/register-controls.php:342
+#: widgets/team-member/register-controls.php:852
+#: widgets/testimonial-carousel/register-controls.php:776
+#: widgets/testimonial-carousel/register-controls.php:1006
+#: widgets/testimonial/register-controls.php:486
+msgid "Height"
+msgstr ""
+
+#: widgets/avatar-group/register-controls.php:145
+msgid "Z-index"
+msgstr ""
+
+#: widgets/avatar-group/register-controls.php:160
+msgid "Avatar List"
+msgstr ""
+
+#: widgets/avatar-group/register-controls.php:165
+msgid "Person Name #1"
+msgstr ""
+
+#: widgets/avatar-group/register-controls.php:169
+msgid "Person Name #2"
+msgstr ""
+
+#: widgets/avatar-group/register-controls.php:173
+msgid "Person Name #3"
+msgstr ""
+
+#: widgets/avatar-group/register-controls.php:177
+msgid "Person Name #4"
+msgstr ""
+
+#: widgets/avatar-group/register-controls.php:181
+msgid "Person Name #5"
+msgstr ""
+
+#: widgets/avatar-group/register-controls.php:195
+#: widgets/call-to-action/register-controls.php:374
+#: widgets/facebook-feed/register-controls.php:276
+#: widgets/post-list/register-controls.php:202
+#: widgets/pricing-table/register-controls.php:341
+#: widgets/review/register-controls.php:114
+msgid "Container"
+msgstr ""
+
+#: widgets/avatar-group/register-controls.php:233
+#: widgets/call-to-action/register-controls.php:33
+#: widgets/call-to-action/register-controls.php:130
+#: widgets/call-to-action/register-controls.php:474
+#: widgets/flex-card/register-controls.php:38
+#: widgets/flip-box/register-controls.php:47
+#: widgets/flip-box/register-controls.php:578
+#: widgets/info-card/register-controls.php:46
+#: widgets/info-card/register-controls.php:59
+#: widgets/pricing-table/register-controls.php:54
+#: widgets/review/register-controls.php:242
+#: widgets/testimonial-carousel/register-controls.php:741
+#: widgets/testimonial/register-controls.php:107
+#: widgets/testimonial/register-controls.php:452
+msgid "Image"
+msgstr ""
+
+#: widgets/avatar-group/register-controls.php:241
+msgid "Image Gaps"
+msgstr ""
+
+#: widgets/avatar-group/register-controls.php:316
+#: widgets/business-hours/register-controls.php:103
+#: widgets/call-to-action/register-controls.php:979
+#: widgets/call-to-action/register-controls.php:1046
+#: widgets/call-to-action/register-controls.php:1245
+#: widgets/call-to-action/register-controls.php:1295
+#: widgets/call-to-action/register-controls.php:1343
+#: widgets/code-highlighter/register-controls.php:254
+#: widgets/code-highlighter/register-controls.php:316
+#: widgets/code-highlighter/register-controls.php:358
+#: widgets/code-highlighter/register-controls.php:411
+#: widgets/flex-card/register-controls.php:704
+#: widgets/flex-card/register-controls.php:1163
+#: widgets/flex-card/register-controls.php:1223
+#: widgets/info-card/register-controls.php:381
+#: widgets/info-card/register-controls.php:843
+#: widgets/info-card/register-controls.php:883
+#: widgets/logo-carousel/widget-logo-carousel.php:267
+#: widgets/logo-carousel/widget-logo-carousel.php:365
+#: widgets/openstreet-map/register-controls.php:187
+#: widgets/paypal-button/register-controls.php:337
+#: widgets/paypal-button/register-controls.php:369
+#: widgets/pdf-viewer/widget-pdf-viewer.php:142
+#: widgets/pdf-viewer/widget-pdf-viewer.php:175
+#: widgets/pricing-table/register-controls.php:859
+#: widgets/pricing-table/register-controls.php:890
+#: widgets/team-member/register-controls.php:483
+#: widgets/team-member/register-controls.php:548
+#: widgets/team-member/register-controls.php:689
+#: widgets/team-member/register-controls.php:1219
+#: widgets/team-member/register-controls.php:1250
+#: widgets/testimonial-carousel/register-controls.php:514
+#: widgets/testimonial-carousel/register-controls.php:611
+#: widgets/testimonial-carousel/register-controls.php:859
+#: widgets/testimonial-carousel/register-controls.php:1027
+#: widgets/testimonial/register-controls.php:405
+msgid "Background Color"
+msgstr ""
+
+#: widgets/avatar-group/widget-avatar-group.php:27
+msgid "Avatar Group"
+msgstr ""
+
+#: widgets/business-hours/register-controls.php:37
+#: widgets/facebook-feed/register-controls.php:207
+msgid "Show Title"
+msgstr ""
+
+#: widgets/business-hours/register-controls.php:55
+#: widgets/business-hours/widget-business-hours.php:27
+msgid "Business Hours"
+msgstr ""
+
+#: widgets/business-hours/register-controls.php:68
+msgid "Day and Hour"
+msgstr ""
+
+#: widgets/business-hours/register-controls.php:78
+#: widgets/business-hours/register-controls.php:394
+msgid "Day"
+msgstr ""
+
+#: widgets/business-hours/register-controls.php:83
+#: widgets/business-hours/register-controls.php:151
+msgid "Saturday"
+msgstr ""
+
+#: widgets/business-hours/register-controls.php:91
+#: widgets/business-hours/register-controls.php:449
+msgid "Time"
+msgstr ""
+
+#: widgets/business-hours/register-controls.php:96
+msgid "9:00 AM - 6:00 PM"
+msgstr ""
+
+#: widgets/business-hours/register-controls.php:115
+msgid "Day Color"
+msgstr ""
+
+#: widgets/business-hours/register-controls.php:128
+msgid "Time Color"
+msgstr ""
+
+#: widgets/business-hours/register-controls.php:146
+msgid "Sunday"
+msgstr ""
+
+#: widgets/business-hours/register-controls.php:147
+msgid "Close"
+msgstr ""
+
+#: widgets/business-hours/register-controls.php:152
+#: widgets/business-hours/register-controls.php:157
+#: widgets/business-hours/register-controls.php:162
+#: widgets/business-hours/register-controls.php:167
+#: widgets/business-hours/register-controls.php:172
+#: widgets/business-hours/register-controls.php:177
+msgid "10:00 AM to 7:00 PM"
+msgstr ""
+
+#: widgets/business-hours/register-controls.php:156
+msgid "Monday"
+msgstr ""
+
+#: widgets/business-hours/register-controls.php:161
+msgid "Tues Day"
+msgstr ""
+
+#: widgets/business-hours/register-controls.php:166
+msgid "Wednesday"
+msgstr ""
+
+#: widgets/business-hours/register-controls.php:171
+msgid "Thursday"
+msgstr ""
+
+#: widgets/business-hours/register-controls.php:176
+msgid "Friday"
+msgstr ""
+
+#: widgets/business-hours/register-controls.php:243
+#: widgets/business-hours/register-controls.php:325
+#: widgets/call-to-action/register-controls.php:1423
+#: widgets/dual-button/register-controls.php:501
+#: widgets/dual-button/register-controls.php:535
+#: widgets/dual-button/register-controls.php:666
+#: widgets/dual-button/register-controls.php:700
+#: widgets/dual-button/register-controls.php:788
+#: widgets/facebook-feed/register-controls.php:290
+#: widgets/facebook-feed/register-controls.php:490
+msgid "Background"
+msgstr ""
+
+#: widgets/business-hours/register-controls.php:255
+#: widgets/business-hours/register-controls.php:356
+#: widgets/code-highlighter/register-controls.php:293
+#: widgets/facebook-feed/register-controls.php:523
+#: widgets/flex-card/register-controls.php:912
+#: widgets/flex-card/register-controls.php:966
+#: widgets/flex-card/register-controls.php:1018
+#: widgets/hover-link/register-controls.php:147
+#: widgets/info-card/register-controls.php:569
+#: widgets/paypal-button/register-controls.php:281
+#: widgets/post-list/register-controls.php:236
+#: widgets/post-list/register-controls.php:415
+#: widgets/post-list/register-controls.php:483
+#: widgets/post-list/register-controls.php:578
+#: widgets/post-list/register-controls.php:649
+#: widgets/pricing-table/register-controls.php:483
+#: widgets/pricing-table/register-controls.php:694
+#: widgets/pricing-table/register-controls.php:784
+#: widgets/pricing-table/register-controls.php:987
+#: widgets/review/register-controls.php:161
+#: widgets/site-logo/register-controls.php:192
+#: widgets/team-member/register-controls.php:1128
+msgid "Margin"
+msgstr ""
+
+#: widgets/business-hours/register-controls.php:296
+#: widgets/business-hours/register-controls.php:348
+#: widgets/dual-button/register-controls.php:458
+#: widgets/dual-button/register-controls.php:623
+#: widgets/dual-button/register-controls.php:821
+#: widgets/logo-carousel/widget-logo-carousel.php:380
+#: widgets/review/register-controls.php:312
+#: widgets/testimonial-carousel/register-controls.php:1065
+msgid "Border"
+msgstr ""
+
+#: widgets/business-hours/register-controls.php:305
+#: widgets/business-hours/register-controls.php:383
+#: widgets/dual-button/register-controls.php:449
+#: widgets/dual-button/register-controls.php:614
+#: widgets/dual-button/register-controls.php:843
+#: widgets/flip-box/register-controls.php:399
+msgid "Box Shadow"
+msgstr ""
+
+#: widgets/business-hours/register-controls.php:316
+msgid "Item"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:41
+msgid "Skin"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:44
+msgid "Classic"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:45
+#: widgets/flex-card/register-controls.php:215
+#: widgets/image-masking/register-controls.php:172
+#: widgets/team-member/register-controls.php:221
+#: widgets/testimonial-carousel/register-controls.php:425
+#: widgets/testimonial/register-controls.php:269
+msgid "Cover"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:56
+#: widgets/call-to-action/register-controls.php:350
+#: widgets/flex-card/register-controls.php:132
+#: widgets/image-masking/register-controls.php:95
+#: widgets/team-member/register-controls.php:138
+#: widgets/team-member/register-controls.php:626
+#: widgets/testimonial-carousel/register-controls.php:139
+#: widgets/testimonial-carousel/register-controls.php:343
+#: widgets/testimonial/register-controls.php:145
+#: widgets/testimonial/register-controls.php:187
+msgid "Position"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:64
+msgid "Above"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:72
+msgid "Below"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:101
+msgid "Image Resolution"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:122
+#: widgets/call-to-action/register-controls.php:541
+#: widgets/flip-box/register-controls.php:39
+#: widgets/pricing-table/register-controls.php:30
+#: widgets/pricing-table/register-controls.php:394
+msgid "Media"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:134
+#: widgets/call-to-action/register-controls.php:175
+#: widgets/dual-button/register-controls.php:65
+#: widgets/dual-button/register-controls.php:194
+#: widgets/flex-card/register-controls.php:426
+#: widgets/flip-box/register-controls.php:51
+#: widgets/flip-box/register-controls.php:90
+#: widgets/flip-box/register-controls.php:702
+#: widgets/info-card/register-controls.php:42
+#: widgets/post-list/register-controls.php:691
+#: widgets/pricing-table/register-controls.php:50
+#: widgets/pricing-table/register-controls.php:156
+#: widgets/pricing-table/register-controls.php:627
+msgid "Icon"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:196
+#: widgets/flip-box/register-controls.php:108
+#: widgets/flip-box/register-controls.php:146
+msgid "This is the heading"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:197
+#: widgets/flip-box/register-controls.php:109
+#: widgets/flip-box/register-controls.php:147
+msgid "Enter your title"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:228
+#: widgets/call-to-action/register-controls.php:922
+#: widgets/flex-card/register-controls.php:377
+#: widgets/flex-card/register-controls.php:989
+#: widgets/flip-box/register-controls.php:121
+#: widgets/flip-box/register-controls.php:158
+#: widgets/flip-box/register-controls.php:1007
+#: widgets/flip-box/register-controls.php:1296
+#: widgets/info-card/register-controls.php:220
+#: widgets/info-card/register-controls.php:706
+msgid "Description"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:233
+#: widgets/flip-box/register-controls.php:123
+#: widgets/flip-box/register-controls.php:160
+msgid "Lorem ipsum dolor sit amet consectetur adipiscing elit dolor"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:234
+#: widgets/flip-box/register-controls.php:124
+#: widgets/flip-box/register-controls.php:161
+msgid "Enter your description"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:245
+#: widgets/call-to-action/register-controls.php:1110
+#: widgets/dual-button/register-controls.php:36
+#: widgets/dual-button/register-controls.php:166
+#: widgets/flex-card/register-controls.php:392
+#: widgets/flex-card/register-controls.php:1042
+#: widgets/flip-box/register-controls.php:1365
+#: widgets/info-card/register-controls.php:284
+#: widgets/info-card/register-controls.php:752
+#: widgets/pricing-table/register-controls.php:308
+#: widgets/pricing-table/register-controls.php:797
+msgid "Button"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:254
+#: widgets/team-member/register-controls.php:613
+msgid "Show Button"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:266
+#: widgets/flip-box/register-controls.php:172
+#: widgets/info-card/register-controls.php:294
+#: widgets/paypal-button/register-controls.php:223
+#: widgets/pricing-table/register-controls.php:312
+msgid "Button Text"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:271
+#: widgets/flip-box/register-controls.php:174
+msgid "Click Here"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:296
+#: widgets/flip-box/register-controls.php:195
+msgid "Apply Link On"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:299
+msgid "Container Only"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:300
+#: widgets/flip-box/register-controls.php:199
+msgid "Button Only"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:315
+#: widgets/call-to-action/register-controls.php:1331
+#: widgets/pricing-table/register-controls.php:266
+#: widgets/pricing-table/register-controls.php:924
+msgid "Ribbon"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:442
+#: widgets/flex-card/register-controls.php:73
+#: widgets/flex-card/register-controls.php:137
+#: widgets/flip-box/register-controls.php:328
+#: widgets/flip-box/register-controls.php:534
+#: widgets/flip-box/register-controls.php:1176
+#: widgets/image-masking/register-controls.php:100
+#: widgets/info-card/register-controls.php:132
+#: widgets/info-card/register-controls.php:150
+#: widgets/post-list/register-controls.php:372
+#: widgets/pricing-table/register-controls.php:195
+#: widgets/pricing-table/register-controls.php:242
+#: widgets/review/register-controls.php:258
+#: widgets/team-member/register-controls.php:143
+#: widgets/testimonial-carousel/register-controls.php:348
+#: widgets/testimonial/register-controls.php:192
+msgid "Top"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:446
+#: widgets/flip-box/register-controls.php:538
+#: widgets/flip-box/register-controls.php:1180
+msgid "Middle"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:450
+#: widgets/flex-card/register-controls.php:141
+#: widgets/flip-box/register-controls.php:332
+#: widgets/flip-box/register-controls.php:542
+#: widgets/flip-box/register-controls.php:1184
+#: widgets/image-masking/register-controls.php:104
+#: widgets/info-card/register-controls.php:158
+#: widgets/post-list/register-controls.php:380
+#: widgets/pricing-table/register-controls.php:196
+#: widgets/pricing-table/register-controls.php:243
+#: widgets/team-member/register-controls.php:147
+#: widgets/testimonial-carousel/register-controls.php:352
+#: widgets/testimonial/register-controls.php:196
+msgid "Bottom"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:642
+#: widgets/flip-box/register-controls.php:713
+msgid "View"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:645
+#: widgets/flex-card/register-controls.php:476
+#: widgets/flip-box/register-controls.php:716
+#: widgets/testimonial-carousel/register-controls.php:74
+#: widgets/testimonial/register-controls.php:85
+msgid "Default"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:646
+#: widgets/flip-box/register-controls.php:717
+msgid "Stacked"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:647
+#: widgets/flip-box/register-controls.php:718
+msgid "Framed"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:659
+#: widgets/flip-box/register-controls.php:730
+msgid "Shape"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:662
+#: widgets/flip-box/register-controls.php:733
+msgid "Circle"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:663
+#: widgets/flip-box/register-controls.php:734
+msgid "Square"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:702
+#: widgets/flip-box/register-controls.php:773
+msgid "Primary Color"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:720
+#: widgets/flip-box/register-controls.php:796
+msgid "Secondary Color"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:739
+#: widgets/flip-box/register-controls.php:815
+#: widgets/pricing-table/register-controls.php:436
+#: widgets/team-member/register-controls.php:1081
+msgid "Icon Size"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:768
+#: widgets/flip-box/register-controls.php:845
+msgid "Icon Padding"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:797
+#: widgets/call-to-action/register-controls.php:1178
+#: widgets/flip-box/register-controls.php:886
+#: widgets/flip-box/register-controls.php:1549
+msgid "Border Width"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:963
+msgid "Colors"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:993
+#: widgets/call-to-action/register-controls.php:1060
+#: widgets/facebook-feed/register-controls.php:411
+msgid "Title Color"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:1007
+#: widgets/call-to-action/register-controls.php:1074
+msgid "Description Color"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:1039
+#: widgets/call-to-action/register-controls.php:1277
+#: widgets/call-to-action/register-controls.php:1506
+#: widgets/dual-button/register-controls.php:527
+#: widgets/dual-button/register-controls.php:692
+#: widgets/flex-card/register-controls.php:1206
+#: widgets/flip-box/register-controls.php:1470
+#: widgets/hover-link/register-controls.php:199
+#: widgets/info-card/register-controls.php:865
+#: widgets/logo-carousel/widget-logo-carousel.php:587
+#: widgets/post-list/register-controls.php:524
+#: widgets/post-list/register-controls.php:919
+#: widgets/pricing-table/register-controls.php:885
+#: widgets/team-member/register-controls.php:66
+#: widgets/team-member/register-controls.php:528
+#: widgets/team-member/register-controls.php:774
+#: widgets/team-member/register-controls.php:1232
+msgid "Hover"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:1155
+#: widgets/flex-card/register-controls.php:678
+#: widgets/review/register-controls.php:340
+#: widgets/team-member/register-controls.php:188
+msgid "Offset Y"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:1256
+#: widgets/call-to-action/register-controls.php:1306
+#: widgets/flip-box/register-controls.php:1453
+#: widgets/flip-box/register-controls.php:1516
+#: widgets/info-card/register-controls.php:894
+#: widgets/pricing-table/register-controls.php:908
+#: widgets/pricing-table/register-controls.php:1043
+#: widgets/team-member/register-controls.php:561
+#: widgets/team-member/register-controls.php:1261
+msgid "Border Color"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:1370
+msgid "Distance"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:1414
+msgid "Hover Effects"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:1433
+#: widgets/site-logo/register-controls.php:184
+msgid "Hover Animation"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:1460
+#: widgets/call-to-action/register-controls.php:1513
+#: widgets/image-compare/widget-image-compare.php:159
+msgid "Overlay Color"
+msgstr ""
+
+#: widgets/call-to-action/register-controls.php:1532
+#: widgets/flip-box/register-controls.php:1530
+#: widgets/team-member/register-controls.php:807
+msgid "Transition Duration"
+msgstr ""
+
+#: widgets/call-to-action/widget-call-to-action.php:29
+msgid "Call to Action"
+msgstr ""
+
+#: widgets/code-highlighter/register-controls.php:25
+#: widgets/code-highlighter/register-controls.php:243
+msgid "Browser Wrapper"
+msgstr ""
+
+#: widgets/code-highlighter/register-controls.php:33
+msgid "Show Browser Wrapper"
+msgstr ""
+
+#: widgets/code-highlighter/register-controls.php:45
+msgid "Text on Search bar"
+msgstr ""
+
+#: widgets/code-highlighter/register-controls.php:59
+msgid "Code Settings"
+msgstr ""
+
+#: widgets/code-highlighter/register-controls.php:68
+msgid "Language"
+msgstr ""
+
+#: widgets/code-highlighter/register-controls.php:117
+msgid "Theme"
+msgstr ""
+
+#: widgets/code-highlighter/register-controls.php:123
+msgid "Okaidia"
+msgstr ""
+
+#: widgets/code-highlighter/register-controls.php:124
+msgid "Solarizedlight"
+msgstr ""
+
+#: widgets/code-highlighter/register-controls.php:125
+msgid "Tomorrow"
+msgstr ""
+
+#: widgets/code-highlighter/register-controls.php:126
+msgid "Twilight"
+msgstr ""
+
+#: widgets/code-highlighter/register-controls.php:135
+msgid "Code"
+msgstr ""
+
+#: widgets/code-highlighter/register-controls.php:152
+msgid "Show Line Numbers"
+msgstr ""
+
+#: widgets/code-highlighter/register-controls.php:164
+msgid "Highlight Lines (comma separated)"
+msgstr ""
+
+#: widgets/code-highlighter/register-controls.php:175
+msgid "Show Clip Board"
+msgstr ""
+
+#: widgets/code-highlighter/register-controls.php:187
+msgid "Word Wrap"
+msgstr ""
+
+#: widgets/code-highlighter/register-controls.php:191
+#: widgets/flip-box/register-controls.php:353
+#: widgets/paypal-button/register-controls.php:126
+msgid "On"
+msgstr ""
+
+#: widgets/code-highlighter/register-controls.php:195
+#: widgets/flip-box/register-controls.php:354
+#: widgets/paypal-button/register-controls.php:125
+msgid "Off"
+msgstr ""
+
+#: widgets/code-highlighter/register-controls.php:207
+msgid "Font Size (px)"
+msgstr ""
+
+#: widgets/code-highlighter/register-controls.php:224
+msgid "Code Box Height (px)"
+msgstr ""
+
+#: widgets/code-highlighter/register-controls.php:308
+msgid "Browser Bar"
+msgstr ""
+
+#: widgets/code-highlighter/register-controls.php:350
+msgid "Browser Search"
+msgstr ""
+
+#: widgets/code-highlighter/register-controls.php:403
+msgid "Code Area"
+msgstr ""
+
+#: widgets/code-highlighter/widget-code-highlighter.php:25
+msgid "Code Highlighter"
+msgstr ""
+
+#: widgets/dual-button/register-controls.php:28
+#: widgets/dual-button/register-controls.php:400
+msgid "Primary Button"
+msgstr ""
+
+#: widgets/dual-button/register-controls.php:34
+#: widgets/dual-button/register-controls.php:164
+#: widgets/dual-button/register-controls.php:302
+#: widgets/info-card/register-controls.php:292
+#: widgets/pricing-table/register-controls.php:165
+#: widgets/team-member/register-controls.php:643
+msgid "Text"
+msgstr ""
+
+#: widgets/dual-button/register-controls.php:77
+#: widgets/dual-button/register-controls.php:206
+#: widgets/flex-card/register-controls.php:437
+#: widgets/info-card/register-controls.php:331
+#: widgets/post-list/register-controls.php:715
+msgid "Icon Position"
+msgstr ""
+
+#: widgets/dual-button/register-controls.php:82
+#: widgets/dual-button/register-controls.php:211
+#: widgets/info-card/register-controls.php:336
+msgid "Before"
+msgstr ""
+
+#: widgets/dual-button/register-controls.php:86
+#: widgets/dual-button/register-controls.php:215
+#: widgets/info-card/register-controls.php:340
+msgid "After"
+msgstr ""
+
+#: widgets/dual-button/register-controls.php:96
+#: widgets/dual-button/register-controls.php:225
+msgid "Icon font size"
+msgstr ""
+
+#: widgets/dual-button/register-controls.php:109
+#: widgets/dual-button/register-controls.php:238
+msgid "Icon Spacing Before"
+msgstr ""
+
+#: widgets/dual-button/register-controls.php:132
+#: widgets/dual-button/register-controls.php:261
+msgid "Icon Spacing After"
+msgstr ""
+
+#: widgets/dual-button/register-controls.php:158
+#: widgets/dual-button/register-controls.php:566
+msgid "Secondary Button"
+msgstr ""
+
+#: widgets/dual-button/register-controls.php:178
+#: widgets/flex-card/register-controls.php:352
+#: widgets/flex-card/register-controls.php:414
+#: widgets/hover-link/register-controls.php:111
+msgid "https://sample-link.com"
+msgstr ""
+
+#: widgets/dual-button/register-controls.php:287
+#: widgets/dual-button/register-controls.php:730
+msgid "Center Text"
+msgstr ""
+
+#: widgets/dual-button/register-controls.php:294
+msgid "Show Text"
+msgstr ""
+
+#: widgets/dual-button/register-controls.php:304
+msgid "Or"
+msgstr ""
+
+#: widgets/dual-button/register-controls.php:345
+#: widgets/flip-box/register-controls.php:370
+msgid "Common"
+msgstr ""
+
+#: widgets/dual-button/register-controls.php:353
+msgid "Space Between Buttons"
+msgstr ""
+
+#: widgets/dual-button/register-controls.php:409
+#: widgets/dual-button/register-controls.php:575
+#: widgets/dual-button/register-controls.php:812
+#: widgets/hover-link/register-controls.php:136
+#: widgets/info-card/register-controls.php:694
+#: widgets/info-card/register-controls.php:738
+#: widgets/page-title/register-controls.php:160
+#: widgets/post-list/register-controls.php:475
+#: widgets/post-list/register-controls.php:559
+#: widgets/post-list/register-controls.php:630
+#: widgets/post-title/register-controls.php:160
+#: widgets/site-title/register-controls.php:103
+#: widgets/testimonial-carousel/register-controls.php:624
+#: widgets/testimonial-carousel/register-controls.php:686
+#: widgets/testimonial-carousel/register-controls.php:730
+#: widgets/testimonial/register-controls.php:418
+#: widgets/testimonial/register-controls.php:577
+#: widgets/testimonial/register-controls.php:621
+msgid "Typography"
+msgstr ""
+
+#: widgets/dual-button/register-controls.php:433
+#: widgets/dual-button/register-controls.php:599
+msgid "Justified"
+msgstr ""
+
+#: widgets/dual-button/widget-dual-button.php:27
+msgid "Dual Button"
+msgstr ""
+
+#: widgets/embed-content/widget-embed-content.php:31
+msgid "Embed Content"
+msgstr ""
+
+#: widgets/embed-content/widget-embed-content.php:87
+msgid "Embed"
+msgstr ""
+
+#: widgets/embed-content/widget-embed-content.php:94
+msgid "URL to embed"
+msgstr ""
+
+#: widgets/embed-content/widget-embed-content.php:110
+msgid "No URL provided"
+msgstr ""
+
+#: widgets/embed-content/widget-embed-content.php:117
+msgid "Invalid URL"
+msgstr ""
+
+#: widgets/embed-content/widget-embed-content.php:137
+msgid "This provider is not supported."
+msgstr ""
+
+#: widgets/facebook-feed/register-controls.php:27
+msgid "Facebook Settings"
+msgstr ""
+
+#: widgets/facebook-feed/register-controls.php:35
+msgid "Page ID"
+msgstr ""
+
+#: widgets/facebook-feed/register-controls.php:46
+msgid "Access Token"
+msgstr ""
+
+#: widgets/facebook-feed/register-controls.php:68
+msgid "Feed Counts"
+msgstr ""
+
+#: widgets/facebook-feed/register-controls.php:80
+msgid "Feed Columns"
+msgstr ""
+
+#: widgets/facebook-feed/register-controls.php:91
+msgid "Columns Gap"
+msgstr ""
+
+#: widgets/facebook-feed/register-controls.php:118
+msgid "Rows Gap"
+msgstr ""
+
+#: widgets/facebook-feed/register-controls.php:145
+msgid "Enable Image Link"
+msgstr ""
+
+#: widgets/facebook-feed/register-controls.php:157
+msgid "Show Full Content"
+msgstr ""
+
+#: widgets/facebook-feed/register-controls.php:169
+msgid "Feed Excerpts"
+msgstr ""
+
+#: widgets/facebook-feed/register-controls.php:187
+msgid "Visibility"
+msgstr ""
+
+#: widgets/facebook-feed/register-controls.php:195
+msgid "Show Thumbnail"
+msgstr ""
+
+#: widgets/facebook-feed/register-controls.php:219
+msgid "Show Content"
+msgstr ""
+
+#: widgets/facebook-feed/register-controls.php:231
+msgid "Show Footer"
+msgstr ""
+
+#: widgets/facebook-feed/register-controls.php:243
+msgid "Show User Info"
+msgstr ""
+
+#: widgets/facebook-feed/register-controls.php:258
+msgid "Show Reactions"
+msgstr ""
+
+#: widgets/facebook-feed/register-controls.php:353
+msgid "Thumbnail"
+msgstr ""
+
+#: widgets/facebook-feed/register-controls.php:422
+msgid "Body"
+msgstr ""
+
+#: widgets/facebook-feed/register-controls.php:454
+#: widgets/pricing-table/register-controls.php:328
+msgid "Footer"
+msgstr ""
+
+#: widgets/facebook-feed/register-controls.php:582
+msgid "Reaction"
+msgstr ""
+
+#: widgets/facebook-feed/widget-facebook-feed.php:27
+msgid "Facebook Feed"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:31
+#: widgets/flex-card/register-controls.php:489
+#: widgets/post-list/register-controls.php:308
+msgid "Feature Image"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:63
+msgid "Image Position"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:64
+msgid "You can adjust the image width and height from <mark>Style</mark> tab to get your expected design."
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:101
+#: widgets/team-member/register-controls.php:110
+#: widgets/testimonial-carousel/register-controls.php:331
+#: widgets/testimonial/register-controls.php:159
+msgid "Apply Image Mask"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:113
+msgid "Mask Shape"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:156
+#: widgets/flex-card/register-controls.php:652
+#: widgets/image-masking/register-controls.php:116
+#: widgets/team-member/register-controls.php:162
+#: widgets/testimonial-carousel/register-controls.php:367
+#: widgets/testimonial/register-controls.php:211
+msgid "Offset X"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:182
+#: widgets/image-masking/register-controls.php:141
+#: widgets/testimonial-carousel/register-controls.php:393
+#: widgets/testimonial/register-controls.php:237
+msgid "Y Offset"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:208
+#: widgets/flip-box/register-controls.php:1376
+#: widgets/image-masking/register-controls.php:166
+#: widgets/info-card/register-controls.php:409
+#: widgets/pricing-table/register-controls.php:642
+#: widgets/review/register-controls.php:270
+#: widgets/team-member/register-controls.php:214
+#: widgets/testimonial-carousel/register-controls.php:419
+#: widgets/testimonial/register-controls.php:263
+msgid "Size"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:213
+#: widgets/image-masking/register-controls.php:170
+#: widgets/team-member/register-controls.php:219
+#: widgets/testimonial-carousel/register-controls.php:423
+#: widgets/testimonial/register-controls.php:267
+msgid "Auto"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:214
+#: widgets/image-masking/register-controls.php:171
+#: widgets/team-member/register-controls.php:220
+#: widgets/testimonial-carousel/register-controls.php:424
+#: widgets/testimonial/register-controls.php:268
+msgid "Contain"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:230
+#: widgets/image-masking/register-controls.php:185
+#: widgets/team-member/register-controls.php:236
+#: widgets/testimonial-carousel/register-controls.php:441
+#: widgets/testimonial/register-controls.php:285
+msgid "Mask Size"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:256
+#: widgets/flex-card/register-controls.php:262
+#: widgets/image-masking/register-controls.php:214
+#: widgets/image-masking/register-controls.php:220
+#: widgets/team-member/register-controls.php:262
+#: widgets/team-member/register-controls.php:268
+#: widgets/testimonial-carousel/register-controls.php:467
+#: widgets/testimonial-carousel/register-controls.php:473
+#: widgets/testimonial/register-controls.php:311
+#: widgets/testimonial/register-controls.php:317
+msgid "Repeat"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:261
+#: widgets/image-masking/register-controls.php:219
+#: widgets/team-member/register-controls.php:267
+#: widgets/testimonial-carousel/register-controls.php:472
+#: widgets/testimonial/register-controls.php:316
+msgid "No repeat"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:279
+#: widgets/flex-card/register-controls.php:642
+msgid "Badge"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:286
+msgid "Enable Badge"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:298
+msgid "Badge Text"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:302
+msgid "Card Badge"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:329
+#: widgets/info-card/register-controls.php:209
+msgid "Card Title"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:350
+msgid "Title URL"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:364
+#: widgets/flex-card/register-controls.php:367
+#: widgets/flex-card/register-controls.php:935
+#: widgets/pricing-table/register-controls.php:139
+#: widgets/pricing-table/register-controls.php:534
+msgid "Sub Heading"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:379
+msgid "Basic description"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:399
+msgid "Caption"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:402
+#: widgets/post-list/register-controls.php:189
+#: widgets/post-list/register-controls.php:672
+msgid "Read More"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:412
+msgid "URL"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:477
+msgid "Text Overlay"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:617
+msgid "Animation"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:626
+msgid "Zoom Animation"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:628
+msgid "ON"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:629
+msgid "OFF"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:812
+msgid "center"
+msgstr ""
+
+#: widgets/flex-card/register-controls.php:1053
+#: widgets/info-card/register-controls.php:354
+msgid "Icon Spacing"
+msgstr ""
+
+#: widgets/flex-card/widget-flex-card.php:31
+msgid "Flex Card"
+msgstr ""
+
+#: widgets/flip-box/register-controls.php:32
+#: widgets/flip-box/register-controls.php:410
+msgid "Front"
+msgstr ""
+
+#: widgets/flip-box/register-controls.php:137
+#: widgets/flip-box/register-controls.php:1051
+msgid "Back"
+msgstr ""
+
+#: widgets/flip-box/register-controls.php:198
+msgid "Whole Box"
+msgstr ""
+
+#: widgets/flip-box/register-controls.php:213
+#: widgets/logo-carousel/widget-logo-carousel.php:143
+#: widgets/post-list/register-controls.php:121
+msgid "Settings"
+msgstr ""
+
+#: widgets/flip-box/register-controls.php:231
+msgid "Description HTML Tag"
+msgstr ""
+
+#: widgets/flip-box/register-controls.php:297
+msgid "Flip Effect"
+msgstr ""
+
+#: widgets/flip-box/register-controls.php:315
+msgid "Flip Direction"
+msgstr ""
+
+#: widgets/flip-box/register-controls.php:351
+msgid "3D Depth"
+msgstr ""
+
+#: widgets/flip-box/register-controls.php:435
+#: widgets/flip-box/register-controls.php:1076
+msgid "Background Overlay"
+msgstr ""
+
+#: widgets/flip-box/register-controls.php:589
+#: widgets/flip-box/register-controls.php:747
+#: widgets/flip-box/register-controls.php:941
+#: widgets/flip-box/register-controls.php:1231
+#: widgets/flip-box/register-controls.php:1307
+msgid "Gap"
+msgstr ""
+
+#: widgets/flip-box/register-controls.php:639
+#: widgets/team-member/register-controls.php:746
+#: widgets/team-member/register-controls.php:781
+msgid "Opacity"
+msgstr ""
+
+#: widgets/flip-box/register-controls.php:866
+#: widgets/info-card/register-controls.php:613
+msgid "Icon Rotate"
+msgstr ""
+
+#: widgets/flip-box/register-controls.php:1380
+msgid "Extra Small"
+msgstr ""
+
+#: widgets/flip-box/register-controls.php:1381
+msgid "Small"
+msgstr ""
+
+#: widgets/flip-box/register-controls.php:1382
+msgid "Medium"
+msgstr ""
+
+#: widgets/flip-box/register-controls.php:1383
+msgid "Large"
+msgstr ""
+
+#: widgets/flip-box/register-controls.php:1384
+msgid "Extra Large"
+msgstr ""
+
+#: widgets/flip-box/widget-flip-box.php:35
+msgid "Flip Box"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:23
+msgid "Link Content"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:31
+msgid "Animation Style"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:35
+msgid "Style-1"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:36
+msgid "Style-2"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:37
+msgid "Style-3"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:38
+msgid "Style-4"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:39
+msgid "Style-5"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:40
+msgid "Style-6"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:41
+msgid "Style-7"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:42
+msgid "Style-8"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:43
+msgid "Style-9"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:44
+msgid "Style-10"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:45
+msgid "Style-11"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:46
+msgid "Style-12"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:47
+msgid "Style-13"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:48
+msgid "Style-14"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:49
+msgid "Style-15"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:50
+msgid "Style-16"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:51
+msgid "Style-17"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:52
+msgid "Style-18"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:53
+msgid "Style-19"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:54
+msgid "Style-20"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:66
+msgid "Animated Link"
+msgstr ""
+
+#: widgets/hover-link/register-controls.php:67
+msgid "Type Link Title"
+msgstr ""
+
+#: widgets/hover-link/widget-hover-link.php:27
+msgid "Hover Link"
+msgstr ""
+
+#: widgets/image-compare/widget-image-compare.php:61
+msgid "Before Image"
+msgstr ""
+
+#: widgets/image-compare/widget-image-compare.php:70
+msgid "After Image"
+msgstr ""
+
+#: widgets/image-compare/widget-image-compare.php:79
+msgid "Orientation"
+msgstr ""
+
+#: widgets/image-compare/widget-image-compare.php:92
+msgid "Start Percentage"
+msgstr ""
+
+#: widgets/image-compare/widget-image-compare.php:103
+msgid "Before Label (optional)"
+msgstr ""
+
+#: widgets/image-compare/widget-image-compare.php:112
+msgid "After Label (optional)"
+msgstr ""
+
+#: widgets/image-compare/widget-image-compare.php:121
+msgid "Slider Style"
+msgstr ""
+
+#: widgets/image-compare/widget-image-compare.php:135
+msgid "Slider Color"
+msgstr ""
+
+#: widgets/image-compare/widget-image-compare.php:147
+msgid "No Overlay"
+msgstr ""
+
+#: widgets/image-compare/widget-image-compare.php:174
+msgid "Move Slider On Hover"
+msgstr ""
+
+#: widgets/image-compare/widget-image-compare.php:186
+msgid "Move Slider on Hover"
+msgstr ""
+
+#: widgets/image-compare/widget-image-compare.php:198
+msgid "Click to Move"
+msgstr ""
+
+#: widgets/image-masking/register-controls.php:26
+msgid "Image Source"
+msgstr ""
+
+#: widgets/image-masking/register-controls.php:61
+msgid "Shape Mask"
+msgstr ""
+
+#: widgets/image-masking/register-controls.php:69
+#: widgets/team-member/register-controls.php:122
+#: widgets/testimonial-carousel/register-controls.php:487
+#: widgets/testimonial/register-controls.php:171
+msgid "Choose Masking"
+msgstr ""
+
+#: widgets/image-masking/register-controls.php:87
+#: widgets/page-title/register-controls.php:139
+#: widgets/post-title/register-controls.php:139
+#: widgets/site-logo/register-controls.php:93
+#: widgets/site-title/register-controls.php:82
+msgid "Style"
+msgstr ""
+
+#: widgets/image-masking/widget-image-masking.php:28
+#: widgets/testimonial-carousel/register-controls.php:323
+msgid "Image Masking"
+msgstr ""
+
+#: widgets/info-card/register-controls.php:29
+#: widgets/info-card/register-controls.php:373
+msgid "Icon & Image"
+msgstr ""
+
+#: widgets/info-card/register-controls.php:37
+#: widgets/pricing-table/register-controls.php:46
+msgid "Media Type"
+msgstr ""
+
+#: widgets/info-card/register-controls.php:124
+msgid "Media direction"
+msgstr ""
+
+#: widgets/info-card/register-controls.php:146
+msgid "Vertical Alignment"
+msgstr ""
+
+#: widgets/info-card/register-controls.php:198
+#: widgets/info-card/register-controls.php:641
+msgid "Title & Description"
+msgstr ""
+
+#: widgets/info-card/register-controls.php:210
+msgid "Enter Card Title"
+msgstr ""
+
+#: widgets/info-card/register-controls.php:224
+msgid "Description goes here"
+msgstr ""
+
+#: widgets/info-card/register-controls.php:225
+msgid "Enter description"
+msgstr ""
+
+#: widgets/info-card/register-controls.php:263
+#: widgets/team-member/register-controls.php:377
+msgid "Justify"
+msgstr ""
+
+#: widgets/info-card/register-controls.php:295
+#: widgets/team-member/register-controls.php:646
+msgid "Type button text here"
+msgstr ""
+
+#: widgets/info-card/register-controls.php:489
+msgid "Offset Left"
+msgstr ""
+
+#: widgets/info-card/register-controls.php:510
+msgid "Offset Top"
+msgstr ""
+
+#: widgets/info-card/register-controls.php:649
+msgid "Content Box Padding"
+msgstr ""
+
+#: widgets/info-card/register-controls.php:670
+#: widgets/info-card/register-controls.php:714
+#: widgets/team-member/register-controls.php:870
+#: widgets/team-member/register-controls.php:956
+#: widgets/team-member/register-controls.php:1007
+#: widgets/team-member/register-controls.php:1058
+#: widgets/testimonial-carousel/register-controls.php:588
+#: widgets/testimonial-carousel/register-controls.php:697
+#: widgets/testimonial/register-controls.php:382
+#: widgets/testimonial/register-controls.php:588
+msgid "Bottom Spacing"
+msgstr ""
+
+#: widgets/info-card/widget-info-card.php:27
+msgid "Info Card"
+msgstr ""
+
+#: widgets/logo-carousel/widget-logo-carousel.php:32
+msgid "Logo Carousel"
+msgstr ""
+
+#: widgets/logo-carousel/widget-logo-carousel.php:92
+#: widgets/logo-carousel/widget-logo-carousel.php:130
+msgid "Logos"
+msgstr ""
+
+#: widgets/logo-carousel/widget-logo-carousel.php:102
+msgid "Logo Image"
+msgstr ""
+
+#: widgets/logo-carousel/widget-logo-carousel.php:151
+#: widgets/testimonial-carousel/register-controls.php:200
+msgid "Autoplay"
+msgstr ""
+
+#: widgets/logo-carousel/widget-logo-carousel.php:162
+#: widgets/testimonial-carousel/register-controls.php:211
+msgid "Autoplay Speed (ms)"
+msgstr ""
+
+#: widgets/logo-carousel/widget-logo-carousel.php:174
+#: widgets/testimonial-carousel/register-controls.php:298
+msgid "Show Navigation Arrows"
+msgstr ""
+
+#: widgets/logo-carousel/widget-logo-carousel.php:185
+#: widgets/testimonial-carousel/register-controls.php:309
+msgid "Show Pagination Dots"
+msgstr ""
+
+#: widgets/logo-carousel/widget-logo-carousel.php:200
+msgid "Horizontal"
+msgstr ""
+
+#: widgets/logo-carousel/widget-logo-carousel.php:201
+msgid "Vertical"
+msgstr ""
+
+#: widgets/logo-carousel/widget-logo-carousel.php:213
+msgid "Slide Per View (Desktop)"
+msgstr ""
+
+#: widgets/logo-carousel/widget-logo-carousel.php:224
+msgid "Slide Per View (Tablet)"
+msgstr ""
+
+#: widgets/logo-carousel/widget-logo-carousel.php:235
+msgid "Slide Per View (Mobile)"
+msgstr ""
+
+#: widgets/logo-carousel/widget-logo-carousel.php:246
+msgid "Space Between Logo"
+msgstr ""
+
+#: widgets/logo-carousel/widget-logo-carousel.php:259
+msgid "Slider Control"
+msgstr ""
+
+#: widgets/logo-carousel/widget-logo-carousel.php:279
+#: widgets/testimonial-carousel/register-controls.php:871
+msgid "Foreground Color"
+msgstr ""
+
+#: widgets/logo-carousel/widget-logo-carousel.php:322
+msgid "Pagination Control"
+msgstr ""
+
+#: widgets/logo-carousel/widget-logo-carousel.php:397
+#: widgets/testimonial-carousel/register-controls.php:1082
+msgid "Acive Background Color"
+msgstr ""
+
+#: widgets/logo-carousel/widget-logo-carousel.php:412
+#: widgets/testimonial-carousel/register-controls.php:1097
+msgid "Active Border"
+msgstr ""
+
+#: widgets/logo-carousel/widget-logo-carousel.php:452
+msgid "Dimensions"
+msgstr ""
+
+#: widgets/logo-carousel/widget-logo-carousel.php:460
+msgid "Slick Slide Padding"
+msgstr ""
+
+#: widgets/logo-carousel/widget-logo-carousel.php:487
+msgid "Logo Padding"
+msgstr ""
+
+#: widgets/logo-carousel/widget-logo-carousel.php:530
+msgid "Logo Styles"
+msgstr ""
+
+#: widgets/openstreet-map/register-controls.php:36
+msgid "Map Style"
+msgstr ""
+
+#: widgets/openstreet-map/register-controls.php:41
+msgid "Light"
+msgstr ""
+
+#: widgets/openstreet-map/register-controls.php:43
+msgid "Drawing"
+msgstr ""
+
+#: widgets/openstreet-map/register-controls.php:44
+msgid "Satellite (Esri)"
+msgstr ""
+
+#: widgets/openstreet-map/register-controls.php:52
+msgid "Map Height (px)"
+msgstr ""
+
+#: widgets/openstreet-map/register-controls.php:61
+msgid "Enable Scroll Zoom"
+msgstr ""
+
+#: widgets/openstreet-map/register-controls.php:86
+msgid "Popup Always Open?"
+msgstr ""
+
+#: widgets/openstreet-map/register-controls.php:98
+msgid "Marker Size (px)"
+msgstr ""
+
+#: widgets/openstreet-map/register-controls.php:117
+msgid "Markers"
+msgstr ""
+
+#: widgets/openstreet-map/register-controls.php:146
+msgid "Marker Icon"
+msgstr ""
+
+#: widgets/openstreet-map/register-controls.php:157
+msgid "Popup Text"
+msgstr ""
+
+#: widgets/openstreet-map/register-controls.php:159
+msgid "Marker description here"
+msgstr ""
+
+#: widgets/openstreet-map/register-controls.php:166
+msgid "Markers List"
+msgstr ""
+
+#: widgets/openstreet-map/register-controls.php:179
+msgid "Popup Style"
+msgstr ""
+
+#: widgets/openstreet-map/register-controls.php:233
+msgid "Close Button Color"
+msgstr ""
+
+#: widgets/openstreet-map/widget-openstreet-map.php:26
+msgid "Open Street Map"
+msgstr ""
+
+#: widgets/page-title/register-controls.php:58
+#: widgets/post-title/register-controls.php:58
+msgid "Use Custom Title"
+msgstr ""
+
+#: widgets/page-title/register-controls.php:69
+#: widgets/post-title/register-controls.php:69
+msgid "Custom Title"
+msgstr ""
+
+#: widgets/page-title/register-controls.php:81
+#: widgets/post-title/register-controls.php:81
+msgid "Custom Link"
+msgstr ""
+
+#: widgets/page-title/register-controls.php:121
+#: widgets/post-title/register-controls.php:121
+#: widgets/site-logo/register-controls.php:70
+msgid "Link to Homepage"
+msgstr ""
+
+#: widgets/page-title/widget-page-title.php:26
+msgid "Page Title"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:30
+#: widgets/smart-paypal-button/register-controls.php:28
+msgid "PayPal Settings"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:37
+#: widgets/smart-paypal-button/register-controls.php:45
+msgid "Environment"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:41
+#: widgets/smart-paypal-button/register-controls.php:49
+msgid "Sandbox (Test Mode)"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:42
+#: widgets/smart-paypal-button/register-controls.php:50
+msgid "Live"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:50
+msgid "PayPal Business Email"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:52
+msgid "your-paypal-email@example.com"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:61
+msgid "Payment Type"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:75
+#: widgets/progress-bar/register-controls.php:35
+#: widgets/smart-paypal-button/register-controls.php:58
+msgid "Item Name"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:77
+msgid "Product Purchase"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:85
+#: widgets/smart-paypal-button/register-controls.php:67
+msgid "Amount"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:94
+#: widgets/pricing-table/register-controls.php:209
+#: widgets/pricing-table/register-controls.php:722
+#: widgets/smart-paypal-button/register-controls.php:76
+msgid "Currency"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:104
+msgid "Billing Cycle"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:108
+msgid "Daily"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:109
+msgid "Weekly"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:110
+msgid "Monthly"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:111
+msgid "Yearly"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:123
+msgid "Auto Renewal"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:136
+msgid "Quantity"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:148
+msgid "Shipping Price"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:163
+msgid "Tax"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:168
+msgid "Percentage"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:179
+msgid "Tax Percentage"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:195
+#: widgets/smart-paypal-button/register-controls.php:92
+msgid "Return URL (Success)"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:197
+#: widgets/smart-paypal-button/register-controls.php:94
+msgid "https://example.com/thank-you"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:204
+#: widgets/smart-paypal-button/register-controls.php:101
+msgid "Cancel URL"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:206
+#: widgets/smart-paypal-button/register-controls.php:103
+msgid "https://example.com/cancelled"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:216
+msgid "Button Settings"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:225
+msgid "Pay with PayPal"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:232
+msgid "Button Icon"
+msgstr ""
+
+#: widgets/paypal-button/register-controls.php:273
+msgid "Button Style"
+msgstr ""
+
+#: widgets/paypal-button/widget-paypal-button.php:27
+msgid "PayPal Button"
+msgstr ""
+
+#: widgets/pdf-viewer/widget-pdf-viewer.php:102
+msgid "Select PDF File"
+msgstr ""
+
+#: widgets/pdf-viewer/widget-pdf-viewer.php:111
+msgid "Viewer Height (px)"
+msgstr ""
+
+#: widgets/pdf-viewer/widget-pdf-viewer.php:119
+msgid "Show Toolbar"
+msgstr ""
+
+#: widgets/pdf-viewer/widget-pdf-viewer.php:134
+msgid "Canvas Toolbar"
+msgstr ""
+
+#: widgets/pdf-viewer/widget-pdf-viewer.php:167
+msgid "Canvas Background"
+msgstr ""
+
+#: widgets/pdf-viewer/widget-pdf-viewer.php:189
+msgid "Canvas Scrollbar"
+msgstr ""
+
+#: widgets/pdf-viewer/widget-pdf-viewer.php:197
+msgid "Scrollbar Tracker Color"
+msgstr ""
+
+#: widgets/pdf-viewer/widget-pdf-viewer.php:209
+msgid "Scrollbar Thumb Color"
+msgstr ""
+
+#: widgets/pdf-viewer/widget-pdf-viewer.php:236
+msgid "Please enter a PDF URL in the widget settings."
+msgstr ""
+
+#: widgets/post-list/register-controls.php:30
+msgid "Query"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:37
+msgid "Post Type"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:41
+msgid "Posts"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:42
+msgid "Pages"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:43
+msgid "Products"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:51
+msgid "Number of Posts"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:60
+msgid "Order"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:64
+msgid "Ascending"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:65
+msgid "Descending"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:73
+msgid "Order By"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:79
+msgid "Random"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:80
+msgid "Menu Order"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:98
+msgid "Layout Style"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:102
+msgid "List"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:106
+msgid "Grid"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:128
+msgid "Show Featured Image"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:148
+msgid "Show Excerpt"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:157
+msgid "Excerpt Length (words)"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:167
+msgid "Show Post Meta (Author, Date)"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:176
+msgid "Show Read More"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:187
+msgid "Read More Text"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:621
+msgid "Meta"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:638
+msgid "Meta Color"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:738
+#: widgets/post-list/register-controls.php:769
+msgid "Icon Gap"
+msgstr ""
+
+#: widgets/post-list/register-controls.php:800
+msgid "Bottom Gap"
+msgstr ""
+
+#: widgets/post-list/widget-post-list.php:27
+msgid "Post List"
+msgstr ""
+
+#: widgets/post-list/widget-post-list.php:107
+msgid "No posts found."
+msgstr ""
+
+#: widgets/post-title/widget-post-title.php:26
+msgid "Post Title"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:36
+msgid "Show Media"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:66
+#: widgets/team-member/register-controls.php:418
+msgid "Select Icon"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:76
+msgid "Select Image"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:108
+msgid "Text Alignment"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:127
+msgid "Basic Plan"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:132
+msgid "Heading Tag"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:141
+msgid "Perfect for Starters"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:150
+#: widgets/pricing-table/register-controls.php:582
+msgid "Features"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:167
+msgid "Feature item"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:172
+msgid "Feature List"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:176
+msgid "1 User Access"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:177
+msgid "5GB Storage"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:178
+msgid "Basic Support"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:188
+#: widgets/pricing-table/register-controls.php:203
+#: widgets/pricing-table/register-controls.php:715
+#: widgets/pricing-table/register-controls.php:743
+msgid "Price"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:192
+msgid "Display Position"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:227
+msgid "Custom Symbol"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:239
+msgid "Currency Position"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:252
+#: widgets/pricing-table/register-controls.php:764
+msgid "Duration"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:270
+msgid "Show Ribbon"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:278
+msgid "Ribbon Text"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:280
+msgid "Popular"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:287
+msgid "Ribbon Position"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:299
+msgid "Show Highlighter"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:314
+msgid "Subscribe"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:318
+msgid "Button Link"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:332
+#: widgets/pricing-table/register-controls.php:969
+msgid "Footer Text"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:404
+msgid "Image Width"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:467
+#: widgets/pricing-table/register-controls.php:634
+msgid "Icon Color"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:668
+msgid "Gap Between Text"
+msgstr ""
+
+#: widgets/pricing-table/register-controls.php:1008
+msgid "Highlight Area"
+msgstr ""
+
+#: widgets/pricing-table/widget-pricing-table.php:28
+msgid "Price Table"
+msgstr ""
+
+#: widgets/progress-bar/register-controls.php:26
+msgid "Progress"
+msgstr ""
+
+#: widgets/progress-bar/register-controls.php:37
+msgid "JavaScript"
+msgstr ""
+
+#: widgets/progress-bar/register-controls.php:44
+msgid "Progress (%)"
+msgstr ""
+
+#: widgets/progress-bar/register-controls.php:76
+msgid "Bar Background"
+msgstr ""
+
+#: widgets/progress-bar/register-controls.php:89
+msgid "Skill Title Color"
+msgstr ""
+
+#: widgets/progress-bar/register-controls.php:101
+msgid "Percentage Text Color"
+msgstr ""
+
+#: widgets/progress-bar/register-controls.php:113
+msgid "Progress Style"
+msgstr ""
+
+#: widgets/progress-bar/register-controls.php:116
+msgid "Style 1"
+msgstr ""
+
+#: widgets/progress-bar/register-controls.php:117
+msgid "Style 2"
+msgstr ""
+
+#: widgets/progress-bar/register-controls.php:118
+msgid "Style 3"
+msgstr ""
+
+#: widgets/progress-bar/register-controls.php:127
+msgid "Animation Speed (ms)"
+msgstr ""
+
+#: widgets/progress-bar/register-controls.php:141
+msgid "Bar Height (px)"
+msgstr ""
+
+#: widgets/progress-bar/register-controls.php:156
+msgid "Progress Items"
+msgstr ""
+
+#: widgets/progress-bar/register-controls.php:170
+msgid "Bar Styles"
+msgstr ""
+
+#: widgets/progress-bar/register-controls.php:179
+msgid "Progress Title Typography"
+msgstr ""
+
+#: widgets/progress-bar/register-controls.php:188
+msgid "Percentage Typography"
+msgstr ""
+
+#: widgets/progress-bar/register-controls.php:196
+msgid "Percent Hightlighter Color"
+msgstr ""
+
+#: widgets/progress-bar/register-controls.php:212
+msgid "Bar Gap Space"
+msgstr ""
+
+#: widgets/progress-bar/register-controls.php:239
+msgid "Bar Border Radius"
+msgstr ""
+
+#: widgets/progress-bar/register-controls.php:261
+msgid "Inner Bar Style"
+msgstr ""
+
+#: widgets/progress-bar/register-controls.php:269
+msgid "Inner Bar Border Radius"
+msgstr ""
+
+#: widgets/progress-bar/widget-progress-bar.php:28
+msgid "Progress Bar"
+msgstr ""
+
+#: widgets/review/register-controls.php:29
+msgid "Review Content"
+msgstr ""
+
+#: widgets/review/register-controls.php:37
+msgid "Client Image"
+msgstr ""
+
+#: widgets/review/register-controls.php:60
+msgid "John Doe"
+msgstr ""
+
+#: widgets/review/register-controls.php:68
+msgid "Designation"
+msgstr ""
+
+#: widgets/review/register-controls.php:70
+msgid "CEO, Company"
+msgstr ""
+
+#: widgets/review/register-controls.php:78
+#: widgets/review/register-controls.php:539
+msgid "Review Comment"
+msgstr ""
+
+#: widgets/review/register-controls.php:80
+msgid "This is an amazing service. Highly recommended!"
+msgstr ""
+
+#: widgets/review/register-controls.php:87
+msgid "Show Stars with number"
+msgstr ""
+
+#: widgets/review/register-controls.php:99
+msgid "Star Rating"
+msgstr ""
+
+#: widgets/review/register-controls.php:250
+msgid "Image Alignment"
+msgstr ""
+
+#: widgets/review/register-controls.php:361
+msgid "Right Gaps"
+msgstr ""
+
+#: widgets/review/register-controls.php:414
+msgid "Review Meta"
+msgstr ""
+
+#: widgets/review/register-controls.php:422
+msgid "Header Meta Gaps"
+msgstr ""
+
+#: widgets/review/register-controls.php:444
+msgid "Client Name"
+msgstr ""
+
+#: widgets/review/register-controls.php:465
+msgid "Client Designation"
+msgstr ""
+
+#: widgets/review/register-controls.php:488
+msgid "Review Star"
+msgstr ""
+
+#: widgets/review/register-controls.php:496
+msgid "Stars & Number Background"
+msgstr ""
+
+#: widgets/review/register-controls.php:510
+msgid "Stars & Number Text Color"
+msgstr ""
+
+#: widgets/review/register-controls.php:524
+msgid "Star Color"
+msgstr ""
+
+#: widgets/review/register-controls.php:566
+msgid "Review Comment Gaps"
+msgstr ""
+
+#: widgets/review/widget-review.php:27
+msgid "Review"
+msgstr ""
+
+#: widgets/simple-heading/widget-simple-heading.php:97
+msgid "Sub Title"
+msgstr ""
+
+#: widgets/simple-heading/widget-simple-heading.php:133
+msgid "Style Variant"
+msgstr ""
+
+#: widgets/simple-heading/widget-simple-heading.php:150
+msgid "Line Thickness"
+msgstr ""
+
+#: widgets/simple-heading/widget-simple-heading.php:226
+#: widgets/simple-heading/widget-simple-heading.php:285
+msgid "Color Variant"
+msgstr ""
+
+#: widgets/site-logo/register-controls.php:35
+msgid "Use Site Logo"
+msgstr ""
+
+#: widgets/site-logo/register-controls.php:40
+msgid "Use WordPress customizer site logo or upload custom logo."
+msgstr ""
+
+#: widgets/site-logo/register-controls.php:47
+msgid "Custom Logo"
+msgstr ""
+
+#: widgets/site-logo/register-controls.php:79
+msgid "Fallback Logo"
+msgstr ""
+
+#: widgets/site-logo/register-controls.php:81
+msgid "Displayed if no site logo or custom logo found."
+msgstr ""
+
+#: widgets/site-logo/register-controls.php:127
+msgid "Logo Width"
+msgstr ""
+
+#: widgets/site-logo/register-controls.php:142
+msgid "Max Height"
+msgstr ""
+
+#: widgets/site-logo/widget-site-logo.php:27
+msgid "Site Logo"
+msgstr ""
+
+#: widgets/site-title/widget-site-title.php:26
+msgid "Site Title"
+msgstr ""
+
+#: widgets/smart-paypal-button/register-controls.php:35
+msgid "PayPal Client ID"
+msgstr ""
+
+#: widgets/smart-paypal-button/register-controls.php:37
+msgid "Enter your PayPal Client ID"
+msgstr ""
+
+#: widgets/smart-paypal-button/register-controls.php:38
+msgid "You can get this from https://developer.paypal.com/dashboard/applications"
+msgstr ""
+
+#: widgets/smart-paypal-button/register-controls.php:60
+msgid "Sample Product"
+msgstr ""
+
+#: widgets/smart-paypal-button/register-controls.php:113
+msgid "Button Display"
+msgstr ""
+
+#: widgets/smart-paypal-button/widget-smart-paypal-button.php:26
+msgid "Smart PayPal Button"
+msgstr ""
+
+#: widgets/stripe-button/register-controls.php:21
+msgid "Stripe Settings"
+msgstr ""
+
+#: widgets/stripe-button/register-controls.php:28
+msgid "Publishable Key"
+msgstr ""
+
+#: widgets/stripe-button/register-controls.php:31
+msgid "pk_live_123456..."
+msgstr ""
+
+#: widgets/stripe-button/register-controls.php:38
+msgid "Button ID"
+msgstr ""
+
+#: widgets/stripe-button/register-controls.php:41
+msgid "buy_btn_ABC123XYZ"
+msgstr ""
+
+#: widgets/stripe-button/widget-stripe-button.php:26
+msgid "Stripe Buy Button"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:32
+msgid "Information"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:49
+#: widgets/team-member/register-controls.php:681
+msgid "Member Photo"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:73
+msgid "Photo 2"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:85
+msgid "Extra class added"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:286
+msgid "Enter Member Name"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:297
+#: widgets/team-member/register-controls.php:969
+msgid "Job Title"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:300
+msgid "Web Developer"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:301
+msgid "Enter Job Title"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:311
+#: widgets/team-member/register-controls.php:1020
+msgid "Short Bio"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:313
+msgid "Enter member bio"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:328
+msgid "H1"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:332
+msgid "H2"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:336
+msgid "H3"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:340
+msgid "H4"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:344
+msgid "H5"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:348
+msgid "H6"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:394
+#: widgets/team-member/register-controls.php:1073
+msgid "Social Links"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:402
+msgid "Show Social Links"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:429
+msgid "Profile Link"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:430
+msgid "Enter social profile link"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:445
+msgid "Want To Customize?"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:605
+#: widgets/team-member/register-controls.php:1120
+msgid "Details Button"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:631
+msgid "Before Social Links"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:632
+msgid "After Social Links"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:645
+msgid "Show Details"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:897
+msgid "Name, Job Title & Bio"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:905
+msgid "Content Padding"
+msgstr ""
+
+#: widgets/team-member/register-controls.php:1105
+msgid "Right Spacing"
+msgstr ""
+
+#: widgets/team-member/widget-team-member.php:29
+msgid "Team Member"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:33
+#: widgets/testimonial-carousel/register-controls.php:153
+#: widgets/testimonial-carousel/register-controls.php:568
+#: widgets/testimonial/register-controls.php:30
+#: widgets/testimonial/register-controls.php:38
+#: widgets/testimonial/register-controls.php:362
+#: widgets/testimonial/widget-testimonial.php:28
+msgid "Testimonial"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:70
+#: widgets/testimonial/register-controls.php:81
+msgid "Design"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:75
+#: widgets/testimonial/register-controls.php:86
+msgid "Bubble"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:87
+msgid "Show Customer Meta"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:101
+msgid "Customer Image"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:125
+msgid "Customer Name"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:128
+#: widgets/testimonial/register-controls.php:134
+msgid "Your Customer Name"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:129
+#: widgets/testimonial/register-controls.php:135
+msgid "Enter Customer Name"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:142
+#: widgets/testimonial/register-controls.php:148
+msgid "Position, Company Name"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:143
+#: widgets/testimonial/register-controls.php:149
+msgid "Enter Position, Company"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:157
+#: widgets/testimonial/register-controls.php:42
+msgid "Type testimonial"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:167
+msgid "Testimonial List"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:172
+#: widgets/testimonial-carousel/register-controls.php:177
+msgid "Name #1"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:173
+#: widgets/testimonial-carousel/register-controls.php:178
+msgid "CEO, Banana Addons."
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:174
+#: widgets/testimonial-carousel/register-controls.php:179
+msgid "Sample Review."
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:192
+msgid "Slider Settings"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:223
+msgid "Slide Per View"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:234
+msgid "Space Between Slides"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:245
+msgid "Device Break Points"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:254
+msgid "Slides in 320px Screen"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:265
+msgid "Slides in 768px Screen"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:276
+msgid "Slides in 1024px Screen"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:290
+#: widgets/testimonial-carousel/register-controls.php:851
+msgid "Slider Navigation"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:506
+msgid "Slides"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:658
+#: widgets/testimonial/register-controls.php:99
+msgid "Customer"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:903
+msgid "Left Control Offset"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:930
+msgid "Right Control Offset"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:984
+msgid "Pagination Navigation"
+msgstr ""
+
+#: widgets/testimonial-carousel/register-controls.php:1039
+msgid "Top Offset"
+msgstr ""
+
+#: widgets/testimonial-carousel/widget-testimonial-carousel.php:28
+msgid "Testimonial Carousel"
+msgstr ""
+
+#: widgets/testimonial/register-controls.php:549
+msgid "Reviewer"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:106
+msgid "Enter the before text"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:117
+msgid "Animated Text (separate phrases with | )"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:120
+msgid "Enter the text or phrases separated by |"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:127
+#: widgets/text-animation/widget-text-animation.php:303
+msgid "After Text"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:130
+msgid "Enter the after text"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:144
+msgid "Bounce"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:145
+msgid "Flash"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:146
+msgid "Pulse"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:147
+msgid "Rubber Band"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:148
+msgid "ShakeX"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:149
+msgid "ShakeY"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:150
+msgid "Head Shake"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:151
+msgid "Swing"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:152
+msgid "Tada"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:153
+msgid "Wobble"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:154
+msgid "Jello"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:155
+msgid "Heart Beat"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:156
+msgid "fadeIn"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:157
+msgid "fadeInDown"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:158
+msgid "fadeInUp"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:159
+msgid "zoomIn"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:160
+msgid "slideInDown"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:161
+msgid "slideInLeft"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:162
+msgid "slideInRight"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:163
+msgid "slideInUp"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:164
+msgid "Flip"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:165
+msgid "flipInX"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:166
+msgid "flipInY"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:167
+msgid "lightSpeedInRight"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:168
+msgid "rotateIn"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:169
+msgid "jackInTheBox"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:178
+msgid "Loop animation"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:190
+msgid "Speed (ms)"
+msgstr ""
+
+#: widgets/text-animation/widget-text-animation.php:272
+msgid "Animated Text"
+msgstr ""

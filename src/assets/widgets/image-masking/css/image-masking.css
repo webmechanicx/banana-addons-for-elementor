@@ -1,0 +1,4 @@
+.banae-image-masking__image-thumb, 
+.banae-image-masking__image-thumb img {
+    border-radius: 0px;
+}

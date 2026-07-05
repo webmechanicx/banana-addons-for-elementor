@@ -1,0 +1,118 @@
+.banae-advanced-heading-wrap {
+    z-index: 2;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.banae-advanced-heading-wrap:before {
+    position: absolute;
+    content: attr(data-background-text);
+    top: 50%;
+    left: 0;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.09);
+    line-height: 1;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 0;
+}
+
+.banae-advanced-heading-tag,
+.banae-advanced-heading-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+}
+
+.banae-advanced-heading-tag {
+    font-size: 25px;
+    margin: 0;
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    -webkit-justify-content: left;
+    justify-content: left;
+}
+
+.banae-advanced-heading-after,
+.banae-advanced-heading-before,
+.banae-advanced-heading-center {
+    position: relative;
+    z-index: 2;
+    color: #d42d72;
+}
+
+.banae-advanced-heading-after {
+    color: #8e49e2;
+}
+
+.banae-advanced-heading-border {
+    display: block;
+}
+
+.banae-advanced-heading-border:after {
+    content: "";
+    width: 162px;
+    display: block;
+    position: absolute;
+    border-color: #e2498a;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.banae-advanced-heading.banae-layout-block.banae-align-left .banae-advanced-heading-wrap {
+    text-align: left;
+}
+
+.banae-advanced-heading.banae-layout-block.banae-align-center .banae-advanced-heading-wrap {
+    text-align: center;
+}
+
+.banae-advanced-heading.banae-layout-block.banae-align-right .banae-advanced-heading-wrap {
+    text-align: right;
+}
+
+.banae-advanced-heading.banae-layout-inline .banae-advanced-heading-before,
+.banae-advanced-heading.banae-layout-inline .banae-advanced-heading-center {
+    margin-right: 5px;
+}
+
+.banae-advanced-heading.banae-layout-block .banae-advanced-heading-before,
+.banae-advanced-heading.banae-layout-block .banae-advanced-heading-center {
+    margin-bottom: 5px;
+}
+
+.banae-advanced-heading.banae-align-left .banae-advanced-heading-border:after {
+    left: 0;
+}
+
+.banae-advanced-heading.banae-align-center .banae-advanced-heading-border:after {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.banae-advanced-heading.banae-align-right .banae-advanced-heading-border:after {
+    right: 0;
+    left: auto;
+}
+
+.banae-advanced-heading.banae-align-center .banae-advanced-heading-wrap:before {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.banae-advanced-heading.banae-align-right .banae-advanced-heading-wrap:before {
+    right: 0;
+    left: auto;
+}

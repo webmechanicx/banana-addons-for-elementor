@@ -1,0 +1,110 @@
+/* Feed Card CSS */
+
+.banae-facebook-feed__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.banae-facebook-feed__card {
+    width: 30%;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: .75rem;
+}
+
+.banae-facebook-feed-img__top {
+    width: 100%;
+    border-top-left-radius: calc(.75rem - 1px) !important;
+    border-top-right-radius: calc(.75rem - 1px) !important;
+}
+
+.banae-facebook-feed__card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.banae-facebook-feed__card-title {
+    margin-bottom: .75rem;
+}
+
+.banae-facebook-feed__card-footer {
+    padding: .75rem 1.25rem;
+    background-color: rgba(0, 0, 0, .03);
+    border-top: 1px solid rgba(0, 0, 0, .125);
+    border-top-color: rgba(0, 0, 0, 0.125);
+}
+
+.banae-facebook-feed__card-footer:last-child {
+    border-radius: 0 0 calc(.75rem - 1px) calc(.75rem - 1px);
+}
+
+.banae-alert {
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.banae-alert.banae-error {
+    color: red;
+    background-color: #ffe1e1;
+    border: 1px solid #fccaca;
+}
+
+.banae-feed-card-meta, 
+.banae-feed-engagement__meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.banae-feed-engagement__meta li {
+    margin-right: 15px;
+}
+
+.banae-feed-engagement__meta li:last-child {
+    margin: 0;
+}
+
+.banae-feed-user {
+    display: flex;
+    align-items: center;
+}
+
+.banae-feed-user img {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.banae-feed-user__info {
+    line-height: 1;
+}
+
+.banae-feed-user__info h5, 
+.banae-feed-user__info .created_at {
+    font-size: 14px;
+}
+
+.banae-feed-user__info h5 {
+    margin: 0;
+}
+
+.banae-feed-user__info .created_at {
+    color: #888888;
+}

@@ -1,0 +1,70 @@
+.twentytwenty-container.banae-image-compare img {
+    width: 100%;
+}
+
+.banae-image-compare .twentytwenty-handle {
+    border-color: var(--banae-slider-bg-color);
+}
+
+.twentytwenty-horizontal .twentytwenty-handle::before {
+    -webkit-box-shadow: 0 3px 0 var(--banae-slider-bg-color), 0 0 12px rgba(51, 51, 51, .5);
+    -moz-box-shadow: 0 3px 0 var(--banae-slider-bg-color), 0 0 12px rgba(51, 51, 51, .5);
+    box-shadow: 0 3px 0 var(--banae-slider-bg-color), 0 0 12px rgba(51, 51, 51, .5);
+}
+
+.twentytwenty-horizontal .twentytwenty-handle::after {
+    -webkit-box-shadow: 0 -3px 0 var(--banae-slider-bg-color), 0 0 12px rgba(51, 51, 51, .5);
+    -moz-box-shadow: 0 -3px 0 var(--banae-slider-bg-color), 0 0 12px rgba(51, 51, 51, .5);
+    box-shadow: 0 -3px 0 var(--banae-slider-bg-color), 0 0 12px rgba(51, 51, 51, .5);
+}
+
+.twentytwenty-horizontal .twentytwenty-handle::after,
+.twentytwenty-vertical .twentytwenty-handle::after,
+.twentytwenty-horizontal .twentytwenty-handle::before,
+.twentytwenty-vertical .twentytwenty-handle::before {
+    background: var(--banae-slider-bg-color);
+}
+
+.banae-image-compare .twentytwenty-left-arrow, 
+.banae-image-compare .twentytwenty-right-arrow
+{
+    transition: all 0.25s ease-in-out;
+}
+
+.banae-image-compare .twentytwenty-left-arrow {
+    border-right-color: var(--banae-slider-bg-color);
+    margin-left: -14px;
+} 
+
+.banae-image-compare .twentytwenty-right-arrow {
+    border-left-color: var(--banae-slider-bg-color);
+    margin-right: -15px;
+}
+
+.banae-image-compare .twentytwenty-overlay:hover {
+    background: var(--banae-overlay-bg-color);
+}
+
+.banae-image-compare:hover .twentytwenty-left-arrow {
+    margin-left: -20px;
+}
+
+.banae-image-compare:hover .twentytwenty-right-arrow {
+    margin-right: -20px;
+}
+
+.banae-image-compare.banae-round .twentytwenty-handle {
+    height: 80px;
+    margin-top: calc(-1 * (80px / 2));
+}
+
+.twentytwenty-horizontal .banae-round .twentytwenty-handle::before,
+.twentytwenty-vertical .banae-round .twentytwenty-handle::before {
+    margin-bottom: calc((80px / 2) + 3px);
+}
+
+.twentytwenty-horizontal .banae-round .twentytwenty-handle::after,
+.twentytwenty-vertical .banae-round .twentytwenty-handle::after {
+    margin-top: calc((80px / 2) + 3px);
+}
+

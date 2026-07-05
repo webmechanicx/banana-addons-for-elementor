@@ -1,0 +1,104 @@
+.banae-dual-button__wrapper a {
+  text-decoration: none;
+}
+
+.banae-dual-button__wrapper {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.banae-dual-button__wrapper .banae-dual__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.banae-dual-button--align-left .banae-dual-button__wrapper {
+  -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+.banae-dual-button--align-center .banae-dual-button__wrapper {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.banae-dual-button--align-right .banae-dual-button__wrapper {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+
+.banae-dual-button__wrapper .banae-dual__button .banae-dual-btn {
+  max-width: 100%;
+  padding: 1.3rem 2.3rem;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1;
+  outline: 0;
+  cursor: pointer;
+}
+
+.banae-dual-button__wrapper .banae-dual-btn__primary {
+  background-color: #a037ff;
+  border-radius: 50px 0 0 50px;
+}
+
+.banae-dual-button__wrapper .banae-dual-btn__secondary {
+  background-color: #3e3e3e;
+  border-radius: 0 50px 50px 0;
+}
+
+.banae-dual-button__wrapper .banae-dual-btn__primary:hover {
+  background-color: #832bd0;
+}
+
+.banae-dual-button__wrapper .banae-dual-btn__secondary:hover {
+  background-color: #262626;
+}
+
+.banae-dual-button__wrapper .banae-button-text__middle {
+  width: 40px;
+  height: 40px;
+}
+
+.banae-dual-button__wrapper .banae-button-text__middle {
+  background-color: #fafaf8;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #444;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 100%;
+  box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.2);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}

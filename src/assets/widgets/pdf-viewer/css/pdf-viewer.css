@@ -1,0 +1,102 @@
+:root {
+    --main-container-color: #2a2a2e;
+    --main-toolbar-color: #38383d;
+    --main-toolbar-border-color: #1d1d20;
+    --main-tootal-text-color: rgb(249 249 250);
+    --button-hover-color: #5b5b5b;
+}
+
+.banana-pdf-viewer {
+    position: relative;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    overflow: auto;
+}
+
+.banana-pdf-viewer .banae-pv-toolbar {
+    background: var(--main-toolbar-color);
+    color: var(--main-tootal-text-color);
+    padding: 4px 6px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    border-bottom: 1px solid var(--main-toolbar-border-color);
+    justify-content: space-between;
+}
+
+.banana-pdf-viewer .banae-pv-btn {
+    min-width: 28px;
+    padding: 0px 8px;
+    color: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid var(--main-toolbar-border-color);
+    border-radius: 4px;
+}
+
+.banana-pdf-viewer .banae-pv-btn:hover, 
+.banana-pdf-viewer .banae-pv-btn:focus {
+    background-color: var(--button-hover-color);
+} 
+
+.banana-pdf-viewer .banae-pdf-canvas-wrap {
+    background-color: var(--main-container-color);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 12px;
+    overflow: auto;
+    scrollbar-color: var(--banana-scrollbar-thumb-color) var(--banana-scrollbar-track-color);
+}
+
+.banana-pdf-viewer .banae-pdf-canvas-wrap::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Color of the scrollbar track */
+}
+
+.banana-pdf-viewer .banae-pdf-canvas-wrap::-webkit-scrollbar-thumb {
+    background: #888;
+    /* Color of the scrollbar thumb */
+    border-radius: 5px;
+    /* Rounded corners for the thumb */
+}
+
+.banana-pdf-viewer .banae-pdf-canvas-wrap::-webkit-scrollbar-thumb:hover {
+    background: #999;
+    /* Color of the thumb on hover */
+}
+
+.banana-pdf-viewer .banae-pdf-canvas-wrap:hover::-moz-scrollbar-thumb {
+    background: #fff;
+    cursor: pointer;
+    /* Color of the thumb on hover */
+}
+
+.banana-pdf-viewer .banae-pdf-canvas {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .05);
+    max-width: 100%;
+    height: auto;
+}
+
+.banana-pdf-viewer .banae-pv-page-info {
+    font-size: 13px;
+}
+
+.banana-pdf-viewer .banae-pv-error,
+.banae-pdf-widget-error {
+    color: #b00020;
+    padding: 12px;
+}
+
+.banana-pdf-viewer:fullscreen .banae-pv-toolbar,
+.banana-pdf-viewer:-webkit-full-screen .banae-pv-toolbar,
+.banana-pdf-viewer:-moz-full-screen .banae-pv-toolbar,
+.banana-pdf-viewer:-ms-fullscreen .banae-pv-oolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background: rgba(245, 245, 245, 0.95);
+}

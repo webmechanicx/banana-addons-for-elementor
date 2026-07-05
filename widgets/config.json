@@ -1,0 +1,545 @@
+[
+    {
+        "text-animation":{
+            "title": "Text Animation",
+            "description": "Add smooth, eye-catching text animations to your site.",
+            "tags": "pro",
+            "screenshot": "text_animation.png",
+            "background": "#a6d07a",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/text-animation\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-text-animation-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-text-animate-style": "widgets/text-animation/css/text-animation.min.css",
+                    "banae-vendor-animate-style": "vendor/animate/css/animate.min.css"
+                },
+                "script": {
+                    "banae-text-animate-script" : "widgets/text-animation/js/text-animation.min.js"
+                }
+            }
+        },
+         "pdf-viewer":{
+            "title": "PDF Viewer",
+            "description": "Show PDF files elegantly without requiring downloads or redirects.",
+            "tags": "free",
+            "screenshot": "pdf_viewer.png",
+            "background": "#cedde7",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/pdf-viewer\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-pdf-viewer-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-pdf-viewer-style": "widgets/pdf-viewer/css/pdf-viewer.min.css"
+                },
+                "script": {
+                    "banae-pdf-viewer-script" : "widgets/pdf-viewer/js/pdf-viewer.min.js",
+                    "banae-vendor-pdfjs-script" : "vendor/pdfjs/js/pdf.min.js"
+                }
+            }
+        },
+         "embed-content":{
+            "title": "Embed Content",
+            "description": "Easily embed external content directly into your Elementor pages.",
+            "tags": "free",
+            "screenshot": "embed_content.png",
+            "background": "#b4a5ce",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/embed-content\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-embed-content-widget-demo\/",
+            "dependency": []
+        },
+         "simple-heading":{
+            "title": "Simple Heading",
+            "description": "Add clean, customizable headings to enhance your page design easily.",
+            "tags": "free",
+            "screenshot": "simple_heading.png",
+            "background": "#ab90a4",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/simple-heading\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-simple-heading-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-simple-heading-style": "widgets/simple-heading/css/simple-heading.min.css"
+                },
+                "script": []
+            }
+        },
+        "animated-heading":{
+            "title": "Animated Heading",
+            "description": "Display stylish animated titles to enhance your website design.",
+            "tags": "pro",
+            "screenshot": "animated_heading.png",
+            "background": "#f9c35c",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/animated-heading\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-animated-heading-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-animated-heading-style": "widgets/animated-heading/css/animated-heading.min.css"
+                },
+                "script": {
+                    "banae-animated-heading-script" : "widgets/animated-heading/js/animated-heading.min.js"
+                }
+            }
+        },
+        "image-compare":{
+            "title": "Image Compare",
+            "description": "Compare two images visually using a smooth draggable slider.",
+            "tags": "free",
+            "screenshot": "image_compare.png",
+            "background": "#f8f298",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/image-compare\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-image-compare-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-image-compare-style": "widgets/image-compare/css/image-compare.min.css",
+                    "banae-vendor-twentytwenty-style": "vendor/twentytwenty/css/twentytwenty.min.css"
+                },
+                "script": {
+                    "banae-image-compare-script" : "widgets/image-compare/js/image-compare.min.js",
+                    "banae-vendor-event-move-script" : "vendor/twentytwenty/js/jquery.event.move.min.js",
+                    "banae-vendor-twentytwenty-script" : "vendor/twentytwenty/js/jquery.twentytwenty.min.js"
+                }
+            }
+        },
+        "flip-box":{
+            "title": "Flip Box",
+            "description": "Show engaging front-back content using stylish flip box effects.",
+            "tags": "pro",
+            "screenshot": "flip_box.png",
+            "background": "#888fc2",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/flip-box\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-flip-box-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-flip-box-style": "widgets/flip-box/css/flip-box.min.css"
+                },
+                "script": []
+            }
+        },
+        "logo-carousel":{
+            "title": "Logo Carousel",
+            "description": "Display client logos elegantly using an automatic scrolling carousel.",
+            "tags": "pro",
+            "screenshot": "logo_carousel.png",
+            "background": "#69cdd6",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/logo-carousel\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-logo-carousel-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-logo-carousel-style": "widgets/logo-carousel/css/logo-carousel.min.css"
+                },
+                "script": {
+                    "banae-logo-carousel-script" : "widgets/logo-carousel/js/logo-carousel.min.js"
+                }
+            }
+        },
+        "info-card":{
+            "title": "Info Card",
+            "description": "Show important details clearly with stylish, responsive info cards.",
+            "tags": "free",
+            "screenshot": "info_card.png",
+            "background": "#6d7fb7",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/info-card\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-info-card-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-info-card-style": "widgets/info-card/css/info-card.min.css"
+                },
+                "script": []
+            }
+        },
+        "advanced-heading":{
+            "title": "Advanced Heading",
+            "description": "Create powerful headings with enhanced styling.",
+            "tags": "pro",
+            "screenshot": "advanced_heading.png",
+            "background": "#68ae72",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/advanced-heading\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-advanced-heading-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-advanced-heading-style": "widgets/advanced-heading/css/advanced-heading.min.css"
+                },
+                "script": []
+            }
+        },
+        "progress-bar":{
+            "title": "Progress Bar",
+            "description": "Show dynamic progress indicators for tasks, skills, or goals.",
+            "tags": "free",
+            "screenshot": "progress_bar.png",
+            "background": "#b9c362",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/progress-bar\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-progress-bar-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-progress-bar-style": "widgets/progress-bar/css/progress-bar.min.css"
+                },
+                "script": {
+                    "banae-progress-bar-script": "widgets/progress-bar/js/progress-bar.min.js"
+                }
+            }
+        },
+        "advanced-google-map":{
+            "title": "Advanced Google Map",
+            "description": "Show locations beautifully using fully customizable Google Map features.",
+            "tags": "pro",
+            "screenshot": "advanced_google_map.png",
+            "background": "#f08178",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/advanced-google-map\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-advanced-google-map-widget-demo\/",
+            "dependency": {
+                "style": [],
+                "script": {
+                    "banae-advanced-google-map-script": "widgets/advanced-google-map/js/advanced-google-map.min.js"
+                }
+            }
+        },
+        "team-member":{
+            "title": "Team Member",
+            "description": "Show team profiles with images, roles, and social links.",
+            "tags": "free",
+            "screenshot": "team_member.png",
+            "background": "#fedd5c",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/team-member\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-team-member-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-team-member-style": "widgets/team-member/css/team-member.min.css"
+                },
+                "script": []
+            }
+        },
+        "testimonial":{
+            "title": "Testimonial",
+            "description": "Display client reviews elegantly to build trust and credibility.",
+            "tags": "free",
+            "screenshot": "testimonial.png",
+            "background": "#96bdb1",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/testimonial\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-testimonial-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-testimonial-style": "widgets/testimonial/css/testimonial.min.css"
+                },
+                "script": []
+            }
+        },
+        "flex-card":{
+            "title": "Flex Card",
+            "description": "Create sleek, adaptable content blocks with powerful flex card.",
+            "tags": "free",
+            "screenshot": "flex_card.png",
+            "background": "#adc4d0",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/flex-card\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-flex-card-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-flex-card-style": "widgets/flex-card/css/flex-card.min.css"
+                },
+                "script": []
+            }
+        },
+        "image-masking":{
+            "title": "Image Masking",
+            "description": "Instantly mask images with circles, stars, or any custom path.",
+            "tags": "pro",
+            "screenshot": "image_masking.png",
+            "background": "#ac92c2",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/image-masking\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-image-masking-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-image-masking-style": "widgets/image-masking/css/image-masking.min.css"
+                },
+                "script": []
+            }
+        },
+        "business-hours":{
+            "title": "Business Hours",
+            "description": "Instantly show visitors when your physical or online store is open.",
+            "tags": "pro",
+            "screenshot": "business_hours.png",
+            "background": "#92d0b1",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/business-hours\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-business-hours-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-business-hours-style": "widgets/business-hours/css/business-hours.min.css"
+                },
+                "script": []
+            }
+        },
+        "dual-button":{
+            "title": "Dual Button",
+            "description": "Offer visitors clear choices using two customized action buttons.",
+            "tags": "free",
+            "screenshot": "dual_button.png",
+            "background": "#e8e5d2",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/dual-button\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-dual-button-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-dual-button-style": "widgets/dual-button/css/dual-button.min.css"
+                },
+                "script": []
+            }
+        },
+        "hover-link":{
+            "title": "Hover Link",
+            "description": "Transform simple links with stunning, interactive hover effects instantly.",
+            "tags": "free",
+            "screenshot": "hover_link.png",
+            "background": "#d2eaef",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/hover-link\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-hover-link-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-hover-link-style": "widgets/hover-link/css/hover-link.min.css"
+                },
+                "script": []
+            }
+        },
+        "avatar-group":{
+            "title": "Avatar Group",
+            "description": "Display multiple user profiles or team photos in a stack.",
+            "tags": "free",
+            "screenshot": "avatar_group.png",
+            "background": "#f9cab1",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/avatar-group\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-avatar-group-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-avatar-group-style": "widgets/avatar-group/css/avatar-group.min.css"
+                },
+                "script": []
+            }
+        },
+        "review":{
+            "title": "Review",
+            "description": "Instantly build trust by highlighting positive user experiences clearly.",
+            "tags": "free",
+            "screenshot": "review.png",
+            "background": "#b3d0c4",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/review\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-review-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-review-style": "widgets/review/css/review.min.css"
+                },
+                "script": []
+            }
+        },
+        "call-to-action":{
+            "title": "Call to Action",
+            "description": "Drive visitors to take immediate action with stunning CTA designs.",
+            "tags": "free",
+            "screenshot": "cta.png",
+            "background": "#eed5e5",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/call-to-action\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-call-to-action-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-cta-style": "widgets/call-to-action/css/call-to-action.min.css"
+                },
+                "script": []
+            }
+        },
+        "code-highlighter":{
+            "title": "Code Highlighter",
+            "description": "Display source code beautifully with syntax highlighting and themes.",
+            "tags": "pro",
+            "screenshot": "code_highlighter.png",
+            "background": "#7cccb4",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/code-highlighter\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-code-highlighter-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-code-highlighter-style": "widgets/code-highlighter/css/code-highlighter.min.css"
+                },
+                "script": {
+                    "banae-code-highlighter-script": "widgets/code-highlighter/js/code-highlighter.min.js"
+                }
+            }
+        },
+        "testimonial-carousel":{
+            "title": "Testimonial Carousel",
+            "description": "Increase visitor trust with a smoothly auto-scrolling testimonial slider.",
+            "tags": "pro",
+            "screenshot": "testimonial_carousel.png",
+            "background": "#bccbd4",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/testimonial-carousel\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-testimonial-carousel-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-testimonial-carousel-style": "widgets/testimonial-carousel/css/testimonial-carousel.min.css"
+                },
+                "script": {
+                    "banae-testimonial-carousel-script" : "widgets/testimonial-carousel/js/testimonial-carousel.min.js"
+                }
+            }
+        },
+        "facebook-feed":{
+            "title": "Facebook Feed",
+            "description": "Integrate and display your latest Facebook page posts dynamically.",
+            "tags": "pro",
+            "screenshot": "facebook_feed.png",
+            "background": "#8dd0e8",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/facebook-feed\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-facebook-feed-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-facebook-feed-style": "widgets/facebook-feed/css/facebook-feed.min.css"
+                },
+                "script": {
+                    "banae-facebook-feed-script" : "widgets/facebook-feed/js/facebook-feed.min.js"
+                }
+            }
+        },
+        "openstreet-map":{
+            "title": "Open Street Map",
+            "description": "Easily pinpoint your business location with interactive map features.",
+            "tags": "pro",
+            "screenshot": "open_street_map.png",
+            "background": "#f3e0d4",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/openstreet-map\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-openstreet-map-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "leaflet-style": "vendor/leaflet/css/leaflet.min.css",
+                    "banae-openstreet-map-style": "widgets/openstreet-map/css/openstreet-map.min.css"
+                },
+                "script": {
+                    "leaflet-script" : "vendor/leaflet/js/leaflet.min.js",
+                    "banae-openstreet-map-script" : "widgets/openstreet-map/js/openstreet-map.min.js"
+                }
+            }
+        },
+        "paypal-button":{
+            "title": "PayPal Button",
+            "description": "Integrate fast, secure payments directly onto your web page now.",
+            "tags": "free",
+            "screenshot": "paypal_button.png",
+            "background": "#a5b6d7",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/paypal-button\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-paypal-button-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-paypal-button-style" : "widgets/paypal-button/css/paypal-button.min.css"
+                },
+                "script": []
+            }
+        },
+        "smart-paypal-button":{
+            "title": "Smart PayPal Button",
+            "description": "Add customizable PayPal buttons for donations, sales, or subscriptions.",
+            "tags": "pro",
+            "screenshot": "smart_paypal_button.png",
+            "background": "#66b8e2",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/smart-paypal-button\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-smart-paypal-button-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-smart-paypal-button-style" : "widgets/smart-paypal-button/css/smart-paypal-button.min.css"
+                },
+                "script": {
+                    "banae-smart-paypal-button-script" : "widgets/smart-paypal-button/js/smart-paypal-button.min.js"
+                }
+            }
+        },
+        "stripe-button":{
+            "title": "Stripe Buy Button",
+            "description": "Simple e-commerce functionality without complex shopping carts.",
+            "tags": "pro",
+            "screenshot": "stripe_buy_button.png",
+            "background": "#bdb1a8",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/stripe-button\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-stripe-button-widget-demo\/",
+            "dependency": {
+                "style": [],
+                "script": []
+            }
+        },
+        "pricing-table":{
+            "title": "Pricing Table",
+            "description": "Highlight the best value plan using special ribbons and visual focus.",
+            "tags": "free",
+            "screenshot": "pricing_table.png",
+            "background": "#e0b8a9",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/pricing-table\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-pricing-table-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-pricing-table-style": "widgets/pricing-table/css/pricing-table.min.css"
+                },
+                "script": []
+            }
+        },
+        "post-list":{
+            "title": "Post List",
+            "description": "Display a structured list or grid view of your latest blog posts easily.",
+            "tags": "free",
+            "screenshot": "post_list.png",
+            "background": "#c884b8",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/post-list\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-post-list-widget-demo\/",
+            "dependency": {
+                "style": {
+                    "banae-post-list-style": "widgets/post-list/css/post-list.min.css"
+                },
+                "script": {
+                    "banae-post-list-script": "widgets/post-list/js/post-list.min.js"
+                }
+            }
+        },
+        "site-title":{
+            "title": "Site Title",
+            "description": "Dynamically display your website's title with custom styles.",
+            "tags": "free",
+            "screenshot": "site_title.png",
+            "background": "#a2d4b6",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/site-title\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-site-title-widget-demo\/",
+            "dependency": {
+                "style": [],
+                "script": []
+            }
+        },
+        "page-title":{
+            "title": "Page Title",
+            "description": "Automatically pull and display the WordPress page title.",
+            "tags": "free",
+            "screenshot": "page_title.png",
+            "background": "#d2d4a4",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/page-title\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-page-title-widget-demo\/",
+            "dependency": {
+                "style": [],
+                "script": []
+            }
+        },
+        "post-title":{
+            "title": "Post Title",
+            "description": "Control the size, color, and link of your primary post title.",
+            "tags": "free",
+            "screenshot": "post_title.png",
+            "background": "#91c8de",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/post-title\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-post-title-widget-demo\/",
+            "dependency": {
+                "style": [],
+                "script": []
+            }
+        },
+        "site-logo":{
+            "title": "Site Logo",
+            "description": "Dynamically display your primary brand image from site settings.",
+            "tags": "free",
+            "screenshot": "site_logo.png",
+            "background": "#dae7b1",
+            "doc_link": "https:\/\/bananaaddons.com\/docs\/site-logo\/",
+            "demo_link": "https:\/\/bananaaddons.com\/elementor-site-logo-widget-demo\/",
+            "dependency": {
+                "style": [],
+                "script": []
+            }
+        }
+    }
+]

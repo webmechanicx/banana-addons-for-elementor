@@ -1,0 +1,52 @@
+/* Editor Panel */
+#elementor-panel-category-banana-addons-category button.elementor-element::before {
+    font-family: IcoFont !important;
+    content: "\eb41";
+    right: 5px;
+    top: 5px;
+    speak: none;
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    color: #958e56;
+    font-size: 12px;
+    background-color: #ecebbe;
+    padding: 3px;
+    border-radius: 50%;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    line-height: 1;
+    -webkit-font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+}
+
+.elementor-control-_section_banae_pro_wrapper_link,
+.elementor-control-_section_banae_equal_height {
+    position: relative;
+}
+
+.elementor-panel-heading-title .icofont-banana {
+    background-color: #cbbf61;
+    padding: 4px;
+    border-radius: 50px;
+    position: absolute;
+    right: 20px;
+    font-size: 10px;
+}
+
+.banae-equal-height-wrapper .elementor-element.elementor-widget {
+    height: 100%;
+}
+
+.banae-equal-height-wrapper .elementor-widget-container {
+    display: flex;
+    /* optional: allows columns to wrap on smaller screens */
+    flex-wrap: wrap;
+}
+
+.banae-equal-height-wrapper .elementor-widget-container>div {
+    flex: 1;
+}

@@ -1,0 +1,59 @@
+.banae-simple-heading-wrap .banae-color-variant-gradient {
+    color: #333;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: transparent;
+}
+
+.banae-simple-heading-wrap [class*='banae-simple-heading-line-style-'] {
+    --_margin: 37px;
+
+    &:not(:empty)::before {
+        margin-right: var(--_margin);
+    }
+        
+    &:not(:empty)::after {
+        margin-left: var(--_margin);
+    }
+}
+
+.banae-simple-heading-wrap .banae-simple-heading-line-style-1,
+.banae-simple-heading-wrap .banae-simple-heading-line-style-2 {
+    display: flex;
+    align-items: center;
+
+    &::before,
+    &::after {
+        content: "";
+        flex: 1;
+        width: 100%;
+        height: var(--line-thickness);
+        background: #000;
+    }
+}
+
+.banae-simple-heading-wrap .banae-simple-heading-line-style-3 {
+
+}
+
+.banae-simple-heading-wrap .banae-simple-heading-border {
+    background-color: #ddd;
+    display: flex;
+    width: 100px;
+    height: var(--line-thickness);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banae-simple-heading-wrap .banae-simple-heading-border.line-style-left{
+    margin: 0px;
+}
+
+.banae-simple-heading-wrap .banae-simple-heading-border.line-style-right{
+    margin-right: 0px;
+}
+
+.banae-simple-heading-wrap .banae-simple-heading-border.line-style-center{
+    margin-left: auto;
+    margin-right: auto;
+}
