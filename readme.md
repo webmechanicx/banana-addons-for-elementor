@@ -1,29 +1,3 @@
-=== Banana Addons for Elementor ===
-
-Plugin Name: Banana Addons for Elementor
-
-Version: 1.0.0
-
-Author: Farhadur Rahim
-
-Author URI: https://farhadurrahim.com/
-
-Contributors: frahim
-
-Tags: Elementor, Elementor Addons, Elementor Widget
-
-Requires at least: 5.0
-
-Tested up to: 7.0
-
-Stable tag: 1.0.0
-
-Requires PHP: 7.4
-
-License: GPLv2
-
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
 [BananaAddons for Elementor](https://bananaaddons.com/)-Get Flex Card, Text Animation, Simgple Heading, Team Member with **35+** Free & Pro Widgets & **2+** Features.
 
 == Description ==
