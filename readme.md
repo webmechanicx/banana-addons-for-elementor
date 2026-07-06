@@ -179,29 +179,3 @@ Data Sent:
 - Payment-related information when a PayPal widget is used.
 
 [Privacy Policy] (https://www.paypal.com/privacy) | [Terms of use] (https://www.paypal.com/us/campaign/terms/paypal-credit-dual)
-
-== Screenshots ==
-
-1. Review widget with image offset
-
-2. Embed Content widget - Embed third-party content
-
-3. Team member widget
-
-4. Team member Custom Shape
-
-5. Info card widget
-
-6. Paypal Button widget
-
-7. Dual button widget
-
-== Changelog ==
-
-= 1.0.0 =
-
-- Initial release
-
-== Upgrade Notice ==
-
-N/A
