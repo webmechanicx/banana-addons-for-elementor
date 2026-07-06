@@ -102,29 +102,29 @@ If you miss anything [Submit ideas.](https://bananaaddons.com/contact-us/)
 
 We truly appreciate your support. If our work brought a smile, please spread the joy by giving us a [5**\*** rating](https://wordpress.org/support/plugin/banana-addons-for-elementor/reviews/) would mean a lot to us.
 
-== Frequently Asked Questions ==
+## Frequently Asked Questions
 
-= Can I use Banana Addons without Elementor? =
+**Can I use Banana Addons without Elementor?**
 
 No, **[Banana Addons](https://bananaaddons.com/)** requires Elementor to work. You can’t use it without Elementor.
 
-= Does it work along with other Elementor Addons? =
+**Does it work along with other Elementor Addons?**
 
 Yes. It includes additional features like Wrapper Link for other addons or extensions.
 
-= Does it work with any WordPress theme? =
+**Does it work with any WordPress theme?**
 
 Yes. It works with any WordPress theme that supports Elementor, and it performs best with the [Hello Elementor](https://wordpress.org/themes/hello-elementor/) theme.
 
-= Does it work with Elementor Pro? =
+**Does it work with Elementor Pro?**
 
 Yes, without a doubt.
 
-= Will Banana Addons break my site after an update? =
+**Will Banana Addons break my site after an update?**
 
 No, updating will not break your site or pages using our plugin. We ensure maximum stability, but we recommend taking a backup before updating. If any issue occurs, simply restore your backup and contact our support team.
 
-== Installation ==
+## Installation
 
 **Step 1:** Upload the plugin file to install by navigating through Plugins➔Add New➔Upload Plugin➔Choose File to Install from your WordPress dashboard or you can simply search for the Banana Addons plugin from the plugin directory by going to Plugins➔Add New and search for the plugin in the search tab to install it on your WordPress site.
 
@@ -136,7 +136,7 @@ For a more detailed explanation check out the following documentation
 
 ☞ [**How to Install Banana Addons For Elementor**](https://bananaaddons.com/docs/banana-addons-for-elementor/getting-started-with-banana-addons-elementor/installation/)
 
-== External Services ==
+**External Services**
 
 This plugin includes optional widgets that connect to third-party services.
 

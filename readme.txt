@@ -136,7 +136,7 @@ Service URL: https://maps.google.com
 Data Sent:
 - User browser requests map data directly from Google when the widget is displayed.
 
-[Privacy Policy] (https://developers.google.com/maps/documentation/javascript/policies) | [Terms of use] (https://developers.google.com/maps/terms-20180207)
+[Privacy Policy](https://developers.google.com/maps/documentation/javascript/policies) | [Terms of use](https://developers.google.com/maps/terms-20180207)
 
 Facebook
 Service URL: https://developers.facebook.com/
@@ -144,7 +144,7 @@ Service URL: https://developers.facebook.com/
 Data Sent:
 - User browser requests facebook feed data directly from Facebook page when the widget is displayed.
 
-[Privacy Policy] (https://www.facebook.com/about/privacy) | [Terms of use] (https://developers.facebook.com/terms/dfc_platform_terms/)
+[Privacy Policy](https://www.facebook.com/about/privacy) | [Terms of use](https://developers.facebook.com/terms/dfc_platform_terms/)
 
 Stripe
 Service URL: https://stripe.com
@@ -152,7 +152,7 @@ Service URL: https://stripe.com
 Data Sent:
 - Payment-related information when a payment widget is used.
 
-[Privacy Policy] (https://stripe.com/privacy) | [Terms of use] (https://stripe.com/legal/ssa)
+[Privacy Policy](https://stripe.com/privacy) | [Terms of use](https://stripe.com/legal/ssa)
 
 PayPal
 Service URL: https://paypal.com
@@ -160,7 +160,7 @@ Service URL: https://paypal.com
 Data Sent:
 - Payment-related information when a PayPal widget is used.
 
-[Privacy Policy] (https://www.paypal.com/privacy) | [Terms of use] (https://www.paypal.com/us/campaign/terms/paypal-credit-dual)
+[Privacy Policy](https://www.paypal.com/privacy) | [Terms of use](https://www.paypal.com/us/campaign/terms/paypal-credit-dual)
 
 == Screenshots ==
 
