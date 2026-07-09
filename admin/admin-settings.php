@@ -19,12 +19,12 @@ class Admin_Settings {
 
 	public function __construct() {
 		add_action( 'admin_menu', [ $this, 'banae_register_admin_pages' ] );
+		add_action( 'admin_enqueue_scripts', [ $this, 'banae_widget_admin_scripts' ] );
+		add_action( 'admin_enqueue_scripts', [ $this, 'banae_add_admin_styles' ] );
 		//add_action( 'admin_head', [ $this, 'modify_menu_highlight' ] ); // invalid wp standard
 		//add_action( 'admin_head', [ $this, 'banae_add_custom_styles' ] ); // invalid wp standard
 		add_action( 'admin_print_scripts', [ $this, 'banae_change_menu_highlight' ] );
 		add_action( 'admin_print_styles', [ $this, 'banae_add_custom_styles' ] );
-		add_action( 'admin_enqueue_scripts', [ $this, 'banae_widget_admin_scripts' ] );
-		add_action( 'admin_enqueue_scripts', [ $this, 'banae_add_admin_styles' ] );
 		add_action( 'wp_ajax_banae_widget_save_settings', [ $this, 'banae_widget_save_settings_ajax' ] );
 
 		add_filter( 'plugin_action_links_' . BANANA_ADDONS_PLUGIN_BASE, [ $this, 'plugin_action_links' ] );
@@ -108,13 +108,14 @@ class Admin_Settings {
 			$current_tab = ( $_GET['tab'] === 'api-key' ) ? 'API Keys' : sanitize_text_field( wp_unslash( $_GET['tab'] ) ); // phpcs:ignore WordPress.Security.NonceVerification.Recommended
 			$current_tab = ucfirst( $current_tab );
 
-			echo '<script type="text/javascript">\n';
-			echo "jQuery(document).ready(function($) {";
-			echo '$("#toplevel_page_banana-addons-for-elementor .wp-submenu-wrap").find("li").removeClass("current");';
-			echo '$("#toplevel_page_banana-addons-for-elementor .wp-submenu-wrap li:contains("'.esc_html( $current_tab ) .'")").addClass("current");';
-			echo '});';
-			echo '</script>';
+			$inline_js = '<script type="text/javascript">\n';
+			$inline_js .= "jQuery(document).ready(function($) {";
+			$inline_js .= '$("#toplevel_page_banana-addons-for-elementor .wp-submenu-wrap").find("li").removeClass("current");';
+			$inline_js .= '$("#toplevel_page_banana-addons-for-elementor .wp-submenu-wrap li:contains("'.esc_html( $current_tab ) .'")").addClass("current");';
+			$inline_js .= '});';
+			$inline_js .= '</script>';
 
+			wp_add_inline_script( 'banae-widget-admin-script', $inline_js, 'after' );
 		}
 	}
 
@@ -244,8 +245,8 @@ class Admin_Settings {
 	 * @return void
 	 */
 	public function banae_add_custom_styles() {
-		echo '<style>
-        #toplevel_page_banana-addons-for-elementor .wp-menu-image img {
+
+		$inline_style = '#toplevel_page_banana-addons-for-elementor .wp-menu-image img {
             width: 18px !important;
             height: 18px !important;
             object-fit: contain;
@@ -253,8 +254,9 @@ class Admin_Settings {
 			filter: brightness(0) saturate(100%) invert(81%) sepia(98%) saturate(461%) hue-rotate(2deg) brightness(95%) contrast(103%);
         }
 		.banae_go_pro a {color: #63a81d;font-weight: 600;}
-		.banae_go_pro a:hover {color: #77c627;}
-        </style>';
+		.banae_go_pro a:hover {color: #77c627;}';
+
+		wp_add_inline_style( 'banae-admin-ui-style', $inline_style );
 	}
 
 	/**

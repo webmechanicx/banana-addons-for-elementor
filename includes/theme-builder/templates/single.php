@@ -15,7 +15,7 @@ if ( $template_id && class_exists( '\Elementor\Plugin' ) ) {
 
 	// Elementor already sanitizes and generates this HTML.
 	// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-	echo $content;
+	echo wp_kses_post( $content );
 
 } else {
 

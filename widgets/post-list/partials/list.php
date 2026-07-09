@@ -1,4 +1,6 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 $layout_style = esc_attr( $settings['layout_style'] ) ?? '';
 
 if ( $query->have_posts() ) {

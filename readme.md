@@ -1,7 +1,6 @@
-[BananaAddons for Elementor](https://bananaaddons.com/)-Get Flex Card, Text Animation, Simgple Heading, Team Member with **35+** Free & Pro Widgets & **2+** Features.
+## Introduction
 
-== Description ==
-
+[BananaAddons for Elementor](https://bananaaddons.com/) - Get Flex Card, Text Animation, Simgple Heading, Team Member with **35+** Free & Pro Widgets & **2+** Features.
 Banana Addons for Elementor extends the Elementor page builder adds **35+** widgets and **2+** features to Elementor, helping you build beautiful and functional WordPress websites.
 
 ## Useful Links
@@ -149,6 +148,17 @@ Data Sent:
 - User browser requests map data directly from Google when the widget is displayed.
 
 [Privacy Policy](https://developers.google.com/maps/documentation/javascript/policies) | [Terms of use](https://developers.google.com/maps/terms-20180207)
+
+OpenStreetMap & Leaflet JS
+
+Service URL: https://www.openstreetmap.org
+
+Data Received:
+
+- User browser requests map data directly from OpenStreetMap through [Leaflet JS](https://leafletjs.com) when the widget is displayed.
+- Some of the static assets will be loading directy from leafletjs.com CDN.
+
+[Privacy Policy](https://operations.osmfoundation.org/policies/tiles/)
 
 Facebook
 

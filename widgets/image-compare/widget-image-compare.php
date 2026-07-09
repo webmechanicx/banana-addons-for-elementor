@@ -238,15 +238,20 @@ class Banae_Image_Compare extends Widget_Base {
 		$uid = 'banae-image-compare-' . uniqid();
 
 		// addiional style
-		$custom_css = '<style>';
-		$custom_css .= ':root {';
-		$custom_css .= '--banae-before-text: '. esc_attr( $settings['before_label'] ) .'"';
-		$custom_css .= '--banae-after-text: '. esc_attr( $settings['after_label'] ) .'"';
-		$custom_css .= '}';
-		$custom_css .= '</style>';
+		$custom_css = sprintf(
+			'#%1$s{
+				--banae-before-text:"%2$s";
+				--banae-after-text:"%3$s";
+			}',
+			esc_attr( $uid ),
+			esc_html( $before_label ),
+			esc_html( $after_label )
+		);
 
-		// Loads inline styling, but only after 'custom-style' is enqueued.
-		wp_add_inline_style( 'banae-image-compare-style', $custom_css );
+		wp_add_inline_style(
+			'banae-image-compare-style',
+			$custom_css
+		);
 
 ?>
 

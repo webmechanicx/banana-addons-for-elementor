@@ -78,7 +78,7 @@ function banana_render_header() {
 
 	// Elementor already sanitizes and generates this HTML.
 	// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-	echo $content;
+	echo wp_kses_post( $content );
 
 }
 add_action( 'wp_body_open', 'banana_render_header', 5 );
@@ -102,7 +102,7 @@ function banana_render_footer() {
 
 	// Elementor already sanitizes and generates this HTML.
 	// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-	echo $content;
+	echo wp_kses_post( $content );
 
 }
 add_action( 'wp_footer', 'banana_render_footer', 5 );

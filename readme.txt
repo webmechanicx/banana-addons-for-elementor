@@ -162,6 +162,15 @@ Data Sent:
 
 [Privacy Policy](https://www.paypal.com/privacy) | [Terms of use](https://www.paypal.com/us/campaign/terms/paypal-credit-dual)
 
+OpenStreetMap & Leaflet JS
+Service URL: https://www.openstreetmap.org
+
+Data Received:
+- User browser requests map data directly from OpenStreetMap through [Leaflet JS](https://leafletjs.com) when the widget is displayed.
+- Some of the static assets will be loading directy from leafletjs.com CDN.
+
+[Privacy Policy](https://operations.osmfoundation.org/policies/tiles/)
+
 == Screenshots ==
 
 1. Review widget with image offset
