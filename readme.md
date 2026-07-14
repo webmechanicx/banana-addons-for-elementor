@@ -149,7 +149,7 @@ Data Sent:
 
 [Privacy Policy](https://developers.google.com/maps/documentation/javascript/policies) | [Terms of use](https://developers.google.com/maps/terms-20180207)
 
-OpenStreetMap & Leaflet JS
+OpenStreetMap
 
 Service URL: https://www.openstreetmap.org
 

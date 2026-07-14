@@ -108,12 +108,10 @@ class Admin_Settings {
 			$current_tab = ( $_GET['tab'] === 'api-key' ) ? 'API Keys' : sanitize_text_field( wp_unslash( $_GET['tab'] ) ); // phpcs:ignore WordPress.Security.NonceVerification.Recommended
 			$current_tab = ucfirst( $current_tab );
 
-			$inline_js = '<script type="text/javascript">\n';
-			$inline_js .= "jQuery(document).ready(function($) {";
+			$inline_js = "jQuery(document).ready(function($) {";
 			$inline_js .= '$("#toplevel_page_banana-addons-for-elementor .wp-submenu-wrap").find("li").removeClass("current");';
 			$inline_js .= '$("#toplevel_page_banana-addons-for-elementor .wp-submenu-wrap li:contains("'.esc_html( $current_tab ) .'")").addClass("current");';
 			$inline_js .= '});';
-			$inline_js .= '</script>';
 
 			wp_add_inline_script( 'banae-widget-admin-script', $inline_js, 'after' );
 		}
